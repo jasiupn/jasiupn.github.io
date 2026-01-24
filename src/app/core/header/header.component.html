@@ -1,0 +1,37 @@
+<header class="header" id="page-top">
+    <a routerLink="/" class="logo" (click)="closeMenu()">
+        <div class="logo__image"></div>
+        <div class="logo__text">
+            <div class="logo_text-item">Rowerowe</div>
+            <div class="logo_text-item">Rękodzieło</div>
+        </div>
+    </a>
+
+    <button
+            class="hamburger"
+            type="button"
+            aria-label="Menu"
+            [attr.aria-expanded]="isMenuOpen"
+            (click)="toggleMenu()"
+    >
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+    </button>
+
+    <nav class="navbar" [class.open]="isMenuOpen">
+        <a class="navbar__link" routerLink="/" (click)="closeMenu()">Start</a>
+        <a class="navbar__link" routerLink="/offer" (click)="closeMenu()">Oferta</a>
+        <a class="navbar__link" routerLink="/order" (click)="closeMenu()">Zamówienie</a>
+        <a class="navbar__link" routerLink="/about" (click)="closeMenu()">O nas</a>
+        <a class="navbar__link" routerLink="/gallery" (click)="closeMenu()">Galeria</a>
+        <a class="navbar__link" routerLink="/contact" (click)="closeMenu()">Kontakt</a>
+    </nav>
+
+    <!-- 🔥 BACKDROP -->
+    <div
+            class="menu-backdrop"
+            *ngIf="isMenuOpen"
+            (click)="closeMenu()"
+    ></div>
+</header>

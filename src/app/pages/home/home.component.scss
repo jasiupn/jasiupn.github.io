@@ -1,0 +1,25 @@
+/* src/app/pages/home/home.component.scss */
+@import '../../../styles.scss';
+
+:host {
+  display: block;
+}
+
+/* Padding dla sekcji z treścią (nie hero) */
+section {
+  padding-left: 0; /* Usunięte - categories ma własny padding */
+  padding-right: 0;
+}
+
+/* ===== HOME OFFER CTA ===== */
+.home-offer-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+  .section-subtitle {
+    margin-top: $hero-to-subtitle-spacing-tablet;
+  }
+}

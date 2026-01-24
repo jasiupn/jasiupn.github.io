@@ -1,0 +1,24 @@
+<!-- Router Link Button -->
+<a
+  *ngIf="routerLink"
+  class="button button--primary"
+  [routerLink]="routerLink"
+  [attr.aria-label]="effectiveAriaLabel"
+>
+  <span class="title">{{ label }}</span>
+  <div class="arrow-icon"></div>
+</a>
+
+<!-- Click Handler Button -->
+<button
+  *ngIf="!routerLink && onClick"
+  class="button button--primary"
+  (click)="handleClick()"
+  [attr.aria-label]="effectiveAriaLabel"
+>
+  <span class="title">{{ label }}</span>
+  <div class="arrow-icon"></div>
+</button>
+
+
+

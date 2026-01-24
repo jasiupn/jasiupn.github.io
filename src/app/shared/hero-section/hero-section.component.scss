@@ -1,0 +1,130 @@
+@import '../../../styles.scss';
+
+:host {
+  display: block;
+}
+
+/* ======================================================
+   HERO – BASE (MOBILE FIRST)
+====================================================== */
+section {
+  position: relative;
+  width: 100%;
+  min-height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+
+  @media (min-width: 1000px) {
+    background-position: center top;
+    min-height: 100vh;
+  }
+
+  /* 🔧 ZMIENNE STERUJĄCE */
+  --hero-mobile-headline-top: 12vh;
+  --hero-scroll-offset-bottom: 2rem;
+}
+
+/* ======================================================
+   OVERLAY CONTENT – MOBILE
+====================================================== */
+.overlay-content {
+  position: absolute;
+  top: var(--hero-mobile-headline-top);
+  left: 0;
+  width: 100%;
+  padding: 1.25rem 1rem 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  z-index: 2;
+}
+
+/* ======================================================
+   HEADLINE – MOBILE
+====================================================== */
+.overlay__headline {
+  margin: 0;
+  font-family: $font-family-hero-headline;
+  font-weight: $font-weight-extrabold;
+  font-size: clamp(2.2rem, 9vw, 3.1rem);
+  line-height: 1.15;
+
+  color: #fcfaf6;
+
+  text-shadow:
+          0 1px 2px rgba(0, 0, 0, 0.95),
+          0 4px 12px rgba(0, 0, 0, 0.85),
+          0 10px 28px rgba(0, 0, 0, 0.75);
+}
+
+/* ======================================================
+   SUBTEXT – MOBILE
+====================================================== */
+.overlay__subtext p {
+  font-family: $font-family-hero-subtext;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  font-weight: $font-weight-semibold;
+  line-height: 1.5;
+  color: #f5f2eb;
+
+  text-shadow:
+          0 1px 2px rgba(0, 0, 0, 0.9),
+          0 6px 18px rgba(0, 0, 0, 0.8);
+}
+
+/* ======================================================
+   TABLET
+====================================================== */
+@media (min-width: $breakpoint-sm) {
+  .overlay-content {
+    top: 35%;
+    text-align: left;
+    padding-left: 2rem;
+    width: 70%;
+  }
+
+  .overlay__headline {
+    font-size: clamp(2.6rem, 5vw, 3.2rem);
+  }
+
+  .overlay__subtext p {
+    margin-top: 3.5rem; /* 👈 ODSTĘP OD HEADLINE */
+    font-size: 2rem;
+  }
+}
+
+/* ======================================================
+   DESKTOP
+====================================================== */
+@media (min-width: $breakpoint-md) {
+  .overlay-content {
+    top: 45%;
+    transform: translateY(-50%);
+    padding-left: 4rem;
+    width: 50vw;
+    max-width: 42rem;
+    text-align: left;
+    color: $color-dark;
+  }
+
+  .overlay__headline {
+    color: $color-dark;
+
+    /* ✨ subtelny, premium cień – lepsza czytelność */
+    text-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.25),
+            0 4px 10px rgba(0, 0, 0, 0.18);
+  }
+
+  .overlay__subtext p {
+    margin-top: 3.5rem; /* 👈 JEDNOZNACZNIE */
+    color: $color-dark;
+
+    text-shadow:
+            0 1px 2px rgba(0, 0, 0, 0.2),
+            0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}

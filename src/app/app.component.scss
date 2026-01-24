@@ -1,0 +1,33 @@
+/* `src/app/app.component.scss` */
+:host {
+  display: block;
+  min-height: 100vh;
+  /* Nie ustawiamy globalnie czarnego tła — kontroluje je `body` w `styles.scss` */
+  background: transparent;
+  color: inherit;
+}
+
+/* Główny wrapper aplikacji */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background: transparent;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; /* Brak paddingu - komponenty zarządzają własnym spacingiem */
+  overflow-x: hidden;
+}
+
+/* router-outlet sam w sobie nie zajmuje miejsca (to placeholder),
+   więc rozciągamy element, który Angular renderuje jako `router-outlet + *`. */
+router-outlet {
+  display: contents;
+}
+
+.container > :nth-child(2) {
+  /* drugi element w .container to zawartość routa (po headerze) */
+  flex: 1 1 auto;
+  display: block;
+}

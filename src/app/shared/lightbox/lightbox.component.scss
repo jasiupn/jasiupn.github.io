@@ -1,0 +1,142 @@
+@import '../../../styles.scss';
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1250;
+  overscroll-behavior: contain;
+  touch-action: pan-x;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.viewer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 95vw;
+  max-width: 96vw;
+  padding: 1rem 0.75rem;
+  z-index: 1260;
+}
+
+.close-btn {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1280;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.nav,
+.side-preview {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.main-image {
+  width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.caption {
+  color: #f1f5f9;
+  font-size: $font-size-xs;
+  text-align: center;
+}
+
+.thumbs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thumbs img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 0.375rem;
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.thumbs img.active {
+  opacity: 1;
+  border: 2px solid rgba(15, 118, 110, 0.9);
+}
+
+@media (min-width: 600px) {
+  .viewer {
+    flex-direction: row;
+    gap: 1rem;
+
+    /* 🔑 KLUCZOWE */
+    justify-content: center;
+    align-items: center;
+
+    /* 🔑 NIE ROZCIĄGAJ NA CAŁY VIEWPORT */
+    width: auto;
+    max-width: 96vw;
+    margin-inline: auto;
+  }
+
+
+  .nav {
+    display: flex;
+    width: 2.75rem;
+    height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  .side-preview {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  .main-image {
+    max-height: 70vh;
+    max-width: 55vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .main-image {
+    max-height: 78vh;
+    max-width: 60vw;
+  }
+}

@@ -1,0 +1,311 @@
+@import '../../../styles.scss';
+
+:host {
+  display: block;
+}
+
+.about {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.about__manifest {
+  max-width: 56.25rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+  text-align: center;
+}
+
+.about__manifest-text {
+  font-family: $font-family-headings;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $color-dark;
+  letter-spacing: -0.01em;
+}
+
+.about__intro {
+  max-width: 42rem;
+  margin: 0 auto 6rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.about__intro-headline {
+  font-family: $font-family-headings;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: $color-dark;
+  margin-bottom: 2rem;
+  letter-spacing: -0.01em;
+}
+
+.about__intro-description {
+  font-family: $font-family-primary;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: $color-text-light;
+  font-weight: 400;
+}
+
+.about-person {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 56.25rem;
+  margin: 0 auto 6rem;
+  padding: 0 1.5rem;
+  opacity: 0;
+  transform: translateY(1.25rem);
+  transition:
+    opacity 1s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-person__image {
+  order: 1;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.08);
+  }
+}
+
+.about-person__text {
+  order: 2;
+}
+
+.about-person__name {
+  font-family: $font-family-headings;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: $color-dark;
+  letter-spacing: 0.02em;
+}
+
+.about-person__text p {
+  font-family: $font-family-primary;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: $color-text;
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.about__belief {
+  max-width: 42rem;
+  margin: 0 auto 6rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: rgba(212, 169, 56, 0.03);
+  border-radius: 0.75rem;
+}
+
+.about__belief-text {
+  font-family: $font-family-headings;
+  font-size: $font-size-md;
+  font-weight: $font-weight-normal;
+  line-height: 1.65;
+  color: $color-dark;
+  letter-spacing: -0.01em;
+}
+
+.about__gallery {
+  max-width: min(90vw, 72rem);
+  margin: 0 auto 2rem;
+  padding: 0;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 0 1.5rem;
+  }
+}
+
+.about__gallery-title {
+  font-family: $font-family-headings;
+  font-size: $font-size-md;
+  font-weight: $font-weight-semibold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: $color-text-light;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about__bridge {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.about__bridge-text {
+  font-family: $font-family-primary;
+  font-size: $font-size-md;
+  line-height: 1.7;
+  color: $color-text;
+  font-weight: $font-weight-normal;
+  opacity: 0.85;
+}
+
+.about__cta-section {
+  max-width: min(56.25rem, 95vw);
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+  text-align: center;
+}
+
+.about__cta-text {
+  font-family: $font-family-primary;
+  font-size: $font-size-md;
+  line-height: 1.7;
+  color: $color-text;
+  margin-bottom: 2rem;
+  font-weight: $font-weight-normal;
+}
+
+.about__cta {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: $breakpoint-lg) {
+  .about__manifest {
+    padding: 6rem 2rem 8rem;
+  }
+
+  .about__manifest-text {
+    font-size: 2.5rem;
+    line-height: 1.4;
+  }
+
+  .about__intro {
+    margin-bottom: 8rem;
+  }
+
+  .about__intro-headline {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .about__intro-description {
+    font-size: 1.25rem;
+  }
+
+  .about-person {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 8rem;
+
+    &__image {
+      order: 1;
+    }
+
+    &__text {
+      order: 2;
+    }
+
+    &__text p {
+      font-family: $font-family-primary;
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  }
+
+  .about-person--reverse {
+    grid-template-columns: 1.1fr 0.9fr;
+
+    .about-person__image {
+      order: 2;
+    }
+
+    .about-person__text {
+      order: 1;
+    }
+  }
+
+  .about__belief {
+    padding: 4rem 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .about__belief-text {
+    font-size: 1.75rem;
+    line-height: 1.6;
+  }
+
+  /* Galeria */
+  .about__gallery {
+    margin-bottom: 5rem;
+  }
+
+  .about__gallery-title {
+    font-size: 1.5rem;
+  }
+
+  /* Most między galeriami */
+  .about__bridge {
+    padding: 5rem 2rem;
+  }
+
+  .about__bridge-text {
+    font-size: 1.5rem;
+    line-height: 1.65;
+  }
+
+  /* CTA */
+  .about__cta-section {
+    padding-bottom: 6rem;
+  }
+
+  .about__cta-text {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* =========================================================
+   TABLET (601px - 900px)
+========================================================= */
+@media (min-width: 601px) and (max-width: 900px) {
+  .about__manifest {
+    padding: 5rem 2rem 7rem;
+  }
+
+  .about__manifest-text {
+    font-size: 2rem;
+  }
+
+  .about-person {
+    margin-bottom: 7rem;
+  }
+}
+
+/* =========================================================
+   ANIMATION - prefers-reduced-motion
+========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  .about-person {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+

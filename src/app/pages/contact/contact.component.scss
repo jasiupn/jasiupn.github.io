@@ -1,0 +1,347 @@
+@import '../../../styles.scss';
+
+/* 🔒 GLOBALNY BEZPIECZNIK – MOBILE OVERFLOW */
+:host,
+:host * {
+  box-sizing: border-box;
+}
+
+:host {
+  display: block;
+  margin-top: 80px;
+  overflow-x: hidden;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  min-height: calc(100vh - 80px);
+  padding: $spacing-lg 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===== CONTAINER ===== */
+.contact-container {
+  max-width: 68.75rem; /* 1100px */
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  overflow-x: hidden;
+
+  @media (min-width: $breakpoint-md) {
+    padding-inline: $spacing-md;
+  }
+}
+
+/* ===== HEADER ===== */
+.contact-header {
+  text-align: center;
+  margin-bottom: $spacing-lg;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $color-text;
+  margin-bottom: $spacing-md;
+}
+
+.contact-subtitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: $color-text-light;
+  max-width: 37.5rem;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+/* ===== CONTENT ===== */
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-lg;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ===== FORM ===== */
+.contact-form {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  width: 100%;
+  max-width: 100%;
+  padding: 1.25rem 1rem;
+  border-radius: $border-radius-lg;
+  border-top: 0.25rem solid $color-border;
+  margin-inline: auto;
+  overflow-x: hidden;
+
+  @media (min-width: $breakpoint-md) {
+    border-top: none;
+    border-left: 0.25rem solid $color-border;
+    box-shadow: $shadow-sm;
+    padding: $spacing-xl;
+  }
+}
+
+.form-group {
+  margin-bottom: $spacing-lg;
+
+  &:last-of-type {
+    margin-bottom: $spacing-xl;
+  }
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: $spacing-sm;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.required {
+  color: #ef4444;
+  font-size: $font-size-lg;
+}
+
+/* ===== INPUTS ===== */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: $border-radius-md;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: white;
+  transition: all 0.3s ease;
+  line-height: 1.6;
+
+  &:focus {
+    outline: none;
+    border-color: $color-primary;
+    box-shadow: 0 0 0 4px rgba(212, 169, 56, 0.1);
+  }
+
+  &.ng-touched.ng-invalid {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+  }
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 9.375rem;
+}
+
+.error-message {
+  margin-top: $spacing-sm;
+  color: #ef4444;
+  font-size: $font-size-xs;
+  font-weight: 500;
+}
+
+/* ===== FILE INPUT ===== */
+.file-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  width: 100%;
+  min-width: 0;
+}
+
+.file-input {
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.file-input-label {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+  flex: 1;
+  padding: 0.875rem 1rem;
+  border: 2px dashed #d1d5db;
+  border-radius: $border-radius-md;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: $color-text;
+  min-width: 0;
+
+  &:hover {
+    border-color: $color-primary;
+    background-color: #fffbf0;
+  }
+}
+
+.file-icon {
+  font-size: 1.5rem;
+}
+
+.file-text {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-remove-button {
+  padding: 0.5rem 0.75rem;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #dc2626;
+  }
+}
+
+.file-info {
+  margin-top: $spacing-sm;
+  font-size: $font-size-sm;
+  color: $color-text-light;
+  font-style: italic;
+}
+
+/* ===== SUBMIT ===== */
+.submit-button {
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: $color-primary;
+  color: $color-dark;
+  border: none;
+  border-radius: $border-radius-md;
+  font-size: 1.125rem;
+  font-weight: 800;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+
+  &:hover:not(:disabled) {
+    background-color: $color-primary-hover;
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}
+
+/* ========================================================= */
+/* ===== CONTACT INFO – ESTETYCZNE INFO CARDS (NEW) ===== */
+/* ========================================================= */
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $spacing-lg;
+  width: 100%;
+  overflow-x: hidden;
+  padding-inline: 0.25rem;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 80%;
+    margin-inline: auto;
+    padding-bottom: 3rem;
+  }
+}
+
+.info-card {
+  position: relative;
+  background: linear-gradient(
+                  180deg,
+                  #ffffff 0%,
+                  #f8fafc 100%
+  );
+  padding: 1.75rem 1.25rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 100%;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, 0.08);
+  overflow: hidden;
+
+  /* górny akcent */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(
+                    90deg,
+                    $color-primary,
+                    lighten($color-primary, 12%)
+    );
+  }
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(2, 6, 23, 0.14);
+  }
+
+  @media (min-width: $breakpoint-md) {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.info-icon {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto $spacing-md;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(15, 118, 110, 0.08);
+  color: $color-primary;
+}
+
+.info-card h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+  color: $color-text;
+}
+
+.info-card p {
+  font-size: 0.95rem;
+  color: $color-text-light;
+}
+
+/* ===== LINK RESET ===== */
+.info-card a,
+.info-card a:visited,
+.info-card a:hover,
+.info-card a:active,
+.info-card a:focus {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}

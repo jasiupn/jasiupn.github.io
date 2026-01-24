@@ -1,0 +1,26 @@
+# Dependencies (Zależności)
+/node_modules
+
+# Build output (Wynik kompilacji)
+/dist
+/build
+/.angular
+
+# Logs and temporary files (Logi i pliki tymczasowe)
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Test and coverage reports (Raporty testowe i pokrycie kodu)
+/coverage
+
+# Configuration files and folders (Pliki i foldery konfiguracyjne - opcjonalne, ale zalecane)
+.idea
+.vscode
+*.log
+*.bak
+*.swp
+
+# System files (Pliki systemowe)
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+/* CTA Button - PRIMARY variant */
+/* Używa globalnego systemu .button--primary z styles.scss */
+/* Strzałka w prawo → - akcje biznesowe */
+
+@import '../../../styles.scss';
+
+:host {
+  display: contents;
+}
+
+/* Komponenty używają klas z globalnego systemu */
+/* Style są zdefiniowane w styles.scss jako .button i .button--primary */
+

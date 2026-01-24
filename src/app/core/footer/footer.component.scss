@@ -1,0 +1,24 @@
+@import '../../../styles.scss';
+
+.footer {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 1.5rem 2rem;
+  }
+}
+
+.footer-logo {
+  height: 8rem;
+  width: auto;
+}

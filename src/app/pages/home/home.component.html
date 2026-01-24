@@ -1,0 +1,28 @@
+<app-hero-section
+    heroClass="hero"
+    headline="TWÓJ ROWER,<br>TWOJA HISTORIA"
+    mobileHeadline="TWÓJ ROWER. TWOJA HISTORIA."
+    subtext="Nadajmy jej kolor — ręcznie."
+    mobileSubtext="Nadajmy jej kolor — ręcznie."
+    buttonLabel="Poznaj ofertę"
+    mobileButtonLabel="Poznaj ofertę"
+    [targetElement]="categoriesSection"
+    buttonAriaLabel="Przewiń do kategorii"
+    backgroundImageDesktop="/assets/images/categories/layout/kask_desktop.png"
+    backgroundImageMobile="/assets/images/categories/layout/kask_mobile_cut.png"
+></app-hero-section>
+
+<section #categoriesSection>
+    <h1 class="section-subtitle">
+        Przenieś swoją pasję na każdą powierzchnię:
+    </h1>
+    <app-categories [items]="categories"></app-categories>
+
+    <div class="home-offer-cta">
+        <app-cta-button
+            label="Zobacz, co możemy stworzyć"
+            routerLink="/offer"
+            ariaLabel="Przejdź do oferty"
+        ></app-cta-button>
+    </div>
+</section>

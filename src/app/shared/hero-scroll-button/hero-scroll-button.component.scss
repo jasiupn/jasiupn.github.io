@@ -1,0 +1,110 @@
+@import '../../../styles.scss';
+
+:host {
+  display: block;
+}
+
+/* ======================================================
+   HERO SCROLL BUTTON – BASE
+====================================================== */
+.hero-scroll-wrapper {
+  position: absolute;
+  bottom: var(--hero-scroll-offset-bottom, 2rem);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* ======================================================
+   MOBILE – WIĘKSZY BUTTON (60%)
+====================================================== */
+@media (max-width: $breakpoint-sm) {
+  .hero-scroll-wrapper {
+    width: 60vw;
+    max-width: 22rem;
+  }
+
+  .hero-scroll-wrapper .button {
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  /* tekst dokładnie na środku */
+  .hero-scroll-wrapper .button .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  /* strzałka po prawej */
+  .hero-scroll-wrapper .button .arrow-icon {
+    margin-left: auto;
+  }
+}
+
+/* ======================================================
+   TABLET – POD TEKST (LEFT)
+====================================================== */
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+  .hero-scroll-wrapper {
+    left: 2rem;
+    transform: none;
+    width: auto;
+  }
+
+  .hero-scroll-wrapper .button {
+    min-width: 16rem;
+    justify-content: space-between; /* 👈 KLUCZ */
+  }
+
+  /* reset mobile hacków */
+  .hero-scroll-wrapper .button .title {
+    position: static;
+    transform: none;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    text-align: center;
+    flex: 1; /* 👈 centruje tekst wizualnie */
+  }
+
+  .hero-scroll-wrapper .button .arrow-icon {
+    margin-left: auto;
+  }
+}
+
+/* ======================================================
+   DESKTOP – POD TEKST (LEFT)
+====================================================== */
+@media (min-width: $breakpoint-md) {
+  .hero-scroll-wrapper {
+    left: 4rem;
+    transform: none;
+    width: auto;
+  }
+
+  .hero-scroll-wrapper .button {
+    min-width: 18rem;
+    justify-content: space-between; /* 👈 NAJWAŻNIEJSZE */
+  }
+
+  /* tekst idealnie wycentrowany */
+  .hero-scroll-wrapper .button .title {
+    position: static;
+    transform: none;
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    text-align: center;
+    flex: 1;
+  }
+
+  /* strzałka przy prawej krawędzi */
+  .hero-scroll-wrapper .button .arrow-icon {
+    margin-left: auto;
+  }
+}
