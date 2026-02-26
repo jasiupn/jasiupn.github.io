@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Lusso Atelier</title>
+    <script>
+      // Encode the requested path as a query param and redirect to index.html.
+      // index.html reads this param and restores the URL before Angular boots,
+      // enabling direct navigation to any route on GitHub Pages.
+      var path = window.location.pathname;
+      var search = window.location.search;
+      window.location.replace(
+        '/?p=' + encodeURIComponent(path) +
+        (search ? '&q=' + encodeURIComponent(search) : '')
+      );
+    </script>
+  </head>
+</html>

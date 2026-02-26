@@ -6,8 +6,13 @@
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Security headers -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com; connect-src 'self';">
+
     <!-- Preconnect to Google Fonts for faster loading -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Load Google Fonts -->
@@ -21,13 +26,26 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Lusso Art Atelier">
     <meta property="og:description" content="Personalizacje rowerowe, projekty artystyczne i&nbsp;motocyklowe. Ręcznie malowane artykuły na zamówienie.">
+    <meta property="og:url" content="https://jasiupn.github.io/">
+    <meta property="og:image" content="https://jasiupn.github.io/assets/images/og-cover.jpg">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Lusso Art Atelier">
     <meta name="twitter:description" content="Personalizacje rowerowe, projekty artystyczne i&nbsp;motocyklowe. Ręcznie malowane artykuły na zamówienie.">
+    <meta name="twitter:image" content="https://jasiupn.github.io/assets/images/og-cover.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jasiupn.github.io/">
   <style>@import"https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap";@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap";@import"https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap";@charset "UTF-8";*{box-sizing:border-box;margin:0;padding:0}html,body,app-root{min-height:100%;overflow-x:hidden}body{margin:0;font-family:Playfair Display,serif;font-size:1rem;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:white;color:#222;line-height:1.6}@media (min-width: 48rem){body{font-size:1.125rem}}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
   <body>
     <app-root></app-root>
+  <script>
+    // Restore path encoded by 404.html for GitHub Pages SPA deep-link support
+    (function () {
+      var p = new URLSearchParams(window.location.search).get('p');
+      if (p) history.replaceState(null, '', decodeURIComponent(p));
+    })();
+  </script>
   <script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
 </html>
