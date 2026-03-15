@@ -1,0 +1,1193 @@
+Index: src/app/shared/data/bike/artwork.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { GalleryItem } from '../../models/gallery-item.model';\r\n\r\nexport const artwork: GalleryItem[] = [\r\n  {\r\n       title: 'Odzież',\r\n       thumbnail: 'assets/images/bike/categories/art/clothes/clothes_1.png',\r\n       images: [\r\n         'assets/images/bike/categories/art/clothes/clothes_1.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_2.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_3.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_4.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_5.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_7.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_8.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_9.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_10.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_11.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_12.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_13.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_14.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_15.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_16.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_17.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_18.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_19.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_20.png',\r\n       ],\r\n       thumbs: [\r\n         'assets/images/bike/categories/art/clothes/clothes_1_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_2_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_3_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_4_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_5_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_7_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_8_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_9_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_10_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_11_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_12_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_13_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_14_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_15_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_16_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_17_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_18_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_19_mini.png',\r\n         'assets/images/bike/categories/art/clothes/clothes_20_mini.png',\r\n       ],\r\n       descriptions: [\r\n         'Ręcznie malowana odzież',\r\n         'Sport & casual',\r\n       ],\r\n     },\r\n    {\r\n         title: 'Auta i Motocykle',\r\n         thumbnail: 'assets/images/bike/categories/art/vehicles/auto_1.png',\r\n         images: [\r\n           'assets/images/bike/categories/art/vehicles/auto_1.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_2.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_3.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_4.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_5.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_7.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_8.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_9.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_10.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_11.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_12.png'\r\n         ],\r\n         thumbs: [\r\n           'assets/images/bike/categories/art/vehicles/auto_1_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_2_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_3_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_4_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_5_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_7_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_8_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_9_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_10_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_11_mini.png',\r\n           'assets/images/bike/categories/art/vehicles/auto_12_mini.png'\r\n         ],\r\n         descriptions: [\r\n           'Personalizowane buty rowerowe',\r\n           'Ręczne malowanie – trwałe farby',\r\n         ],\r\n       },\r\n       {\r\n            title: 'Wrotki, Łyżwy, Buty',\r\n            thumbnail: 'assets/images/bike/categories/art/skates/wrotki_1.png',\r\n            images: [\r\n              'assets/images/bike/categories/art/skates/wrotki_1.png',\r\n              'assets/images/bike/categories/art/skates/wrotki_2.png',\r\n              'assets/images/bike/categories/art/skates/wrotki_3.png'\r\n            ],\r\n            thumbs: [\r\n              'assets/images/bike/categories/art/skates/wrotki_1_mini.png',\r\n              'assets/images/bike/categories/art/skates/wrotki_2_mini.png',\r\n              'assets/images/bike/categories/art/skates/wrotki_3_mini.png'\r\n            ],\r\n            descriptions: [\r\n              'Personalizowane buty rowerowe',\r\n              'Ręczne malowanie – trwałe farby',\r\n            ],\r\n          },\r\n  {\r\n     title: 'Obrazy',\r\n     thumbnail: 'assets/images/bike/categories/art/paintings/painting_1.png',\r\n     images: [\r\n       'assets/images/bike/categories/art/paintings/painting_1.png',\r\n       'assets/images/bike/categories/art/paintings/painting_2.png',\r\n       'assets/images/bike/categories/art/paintings/painting_3.png',\r\n       'assets/images/bike/categories/art/paintings/painting_4.png',\r\n       'assets/images/bike/categories/art/paintings/painting_5.png',\r\n       'assets/images/bike/categories/art/paintings/painting_6.png',\r\n       'assets/images/bike/categories/art/paintings/painting_7.png',\r\n       'assets/images/bike/categories/art/paintings/painting_8.png',\r\n       'assets/images/bike/categories/art/paintings/painting_9.png'\r\n     ],\r\n     thumbs: [\r\n       'assets/images/bike/categories/art/paintings/painting_1_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_2_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_3_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_4_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_5_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_6_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_7_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_8_mini.png',\r\n       'assets/images/bike/categories/art/paintings/painting_9_mini.png'\r\n     ],\r\n     descriptions: [\r\n       'Personalizowane buty rowerowe',\r\n       'Ręczne malowanie – trwałe farby',\r\n     ],\r\n   },\r\n{\r\n     title: 'Murale',\r\n     thumbnail: 'assets/images/bike/categories/art/murals/mural_1.png',\r\n     images: [\r\n       'assets/images/bike/categories/art/murals/mural_1.png',\r\n       'assets/images/bike/categories/art/murals/mural_2.png',\r\n       'assets/images/bike/categories/art/murals/mural_3.png',\r\n       'assets/images/bike/categories/art/murals/mural_4.png',\r\n       'assets/images/bike/categories/art/murals/mural_5.png',\r\n       'assets/images/bike/categories/art/murals/mural_6.png',\r\n       'assets/images/bike/categories/art/murals/mural_7.png',\r\n       'assets/images/bike/categories/art/murals/mural_8.png',\r\n       'assets/images/bike/categories/art/murals/mural_9.png'\r\n     ],\r\n     thumbs: [\r\n       'assets/images/bike/categories/art/murals/mural_1_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_2_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_3_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_4_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_5_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_6_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_7_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_8_mini.png',\r\n       'assets/images/bike/categories/art/murals/mural_9_mini.png'\r\n     ],\r\n     descriptions: [\r\n       'Personalizowane buty rowerowe',\r\n       'Ręczne malowanie – trwałe farby',\r\n     ],\r\n   },\r\n   {\r\n     title: 'Praca z drewnem',\r\n     thumbnail: 'assets/images/bike/categories/art/wood/wood_0.png',\r\n     images: [\r\n       'assets/images/bike/categories/art/wood/wood_0.png',\r\n       'assets/images/bike/categories/art/wood/wood_1.png',\r\n       'assets/images/bike/categories/art/wood/wood_2.png',\r\n       'assets/images/bike/categories/art/wood/wood_3.png'\r\n     ],\r\n     thumbs: [\r\n       'assets/images/bike/categories/art/wood/wood_0_mini.png',\r\n       'assets/images/bike/categories/art/wood/wood_1_mini.png',\r\n       'assets/images/bike/categories/art/wood/wood_2_mini.png',\r\n       'assets/images/bike/categories/art/wood/wood_3_mini.png'\r\n     ],\r\n     descriptions: [\r\n       'Unikalny design kasku',\r\n       'Spójność z rowerem i strojem',\r\n     ],\r\n   }\r\n ];\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/shared/data/bike/artwork.ts b/src/app/shared/data/bike/artwork.ts
+--- a/src/app/shared/data/bike/artwork.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/shared/data/bike/artwork.ts	(date 1771509632044)
+@@ -3,48 +3,48 @@
+ export const artwork: GalleryItem[] = [
+   {
+        title: 'Odzież',
+-       thumbnail: 'assets/images/bike/categories/art/clothes/clothes_1.png',
++       thumbnail: '/assets/images/bike/categories/art/clothes/clothes_1.png',
+        images: [
+-         'assets/images/bike/categories/art/clothes/clothes_1.png',
+-         'assets/images/bike/categories/art/clothes/clothes_2.png',
+-         'assets/images/bike/categories/art/clothes/clothes_3.png',
+-         'assets/images/bike/categories/art/clothes/clothes_4.png',
+-         'assets/images/bike/categories/art/clothes/clothes_5.png',
+-         'assets/images/bike/categories/art/clothes/clothes_7.png',
+-         'assets/images/bike/categories/art/clothes/clothes_8.png',
+-         'assets/images/bike/categories/art/clothes/clothes_9.png',
+-         'assets/images/bike/categories/art/clothes/clothes_10.png',
+-         'assets/images/bike/categories/art/clothes/clothes_11.png',
+-         'assets/images/bike/categories/art/clothes/clothes_12.png',
+-         'assets/images/bike/categories/art/clothes/clothes_13.png',
+-         'assets/images/bike/categories/art/clothes/clothes_14.png',
+-         'assets/images/bike/categories/art/clothes/clothes_15.png',
+-         'assets/images/bike/categories/art/clothes/clothes_16.png',
+-         'assets/images/bike/categories/art/clothes/clothes_17.png',
+-         'assets/images/bike/categories/art/clothes/clothes_18.png',
+-         'assets/images/bike/categories/art/clothes/clothes_19.png',
+-         'assets/images/bike/categories/art/clothes/clothes_20.png',
++         '/assets/images/bike/categories/art/clothes/clothes_1.png',
++         '/assets/images/bike/categories/art/clothes/clothes_2.png',
++         '/assets/images/bike/categories/art/clothes/clothes_3.png',
++         '/assets/images/bike/categories/art/clothes/clothes_4.png',
++         '/assets/images/bike/categories/art/clothes/clothes_5.png',
++         '/assets/images/bike/categories/art/clothes/clothes_7.png',
++         '/assets/images/bike/categories/art/clothes/clothes_8.png',
++         '/assets/images/bike/categories/art/clothes/clothes_9.png',
++         '/assets/images/bike/categories/art/clothes/clothes_10.png',
++         '/assets/images/bike/categories/art/clothes/clothes_11.png',
++         '/assets/images/bike/categories/art/clothes/clothes_12.png',
++         '/assets/images/bike/categories/art/clothes/clothes_13.png',
++         '/assets/images/bike/categories/art/clothes/clothes_14.png',
++         '/assets/images/bike/categories/art/clothes/clothes_15.png',
++         '/assets/images/bike/categories/art/clothes/clothes_16.png',
++         '/assets/images/bike/categories/art/clothes/clothes_17.png',
++         '/assets/images/bike/categories/art/clothes/clothes_18.png',
++         '/assets/images/bike/categories/art/clothes/clothes_19.png',
++         '/assets/images/bike/categories/art/clothes/clothes_20.png',
+        ],
+        thumbs: [
+-         'assets/images/bike/categories/art/clothes/clothes_1_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_2_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_3_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_4_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_5_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_7_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_8_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_9_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_10_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_11_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_12_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_13_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_14_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_15_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_16_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_17_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_18_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_19_mini.png',
+-         'assets/images/bike/categories/art/clothes/clothes_20_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_1_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_2_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_3_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_4_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_5_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_7_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_8_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_9_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_10_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_11_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_12_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_13_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_14_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_15_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_16_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_17_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_18_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_19_mini.png',
++         '/assets/images/bike/categories/art/clothes/clothes_20_mini.png',
+        ],
+        descriptions: [
+          'Ręcznie malowana odzież',
+@@ -53,32 +53,32 @@
+      },
+     {
+          title: 'Auta i Motocykle',
+-         thumbnail: 'assets/images/bike/categories/art/vehicles/auto_1.png',
++         thumbnail: '/assets/images/bike/categories/art/vehicles/auto_1.png',
+          images: [
+-           'assets/images/bike/categories/art/vehicles/auto_1.png',
+-           'assets/images/bike/categories/art/vehicles/auto_2.png',
+-           'assets/images/bike/categories/art/vehicles/auto_3.png',
+-           'assets/images/bike/categories/art/vehicles/auto_4.png',
+-           'assets/images/bike/categories/art/vehicles/auto_5.png',
+-           'assets/images/bike/categories/art/vehicles/auto_7.png',
+-           'assets/images/bike/categories/art/vehicles/auto_8.png',
+-           'assets/images/bike/categories/art/vehicles/auto_9.png',
+-           'assets/images/bike/categories/art/vehicles/auto_10.png',
+-           'assets/images/bike/categories/art/vehicles/auto_11.png',
+-           'assets/images/bike/categories/art/vehicles/auto_12.png'
++           '/assets/images/bike/categories/art/vehicles/auto_1.png',
++           '/assets/images/bike/categories/art/vehicles/auto_2.png',
++           '/assets/images/bike/categories/art/vehicles/auto_3.png',
++           '/assets/images/bike/categories/art/vehicles/auto_4.png',
++           '/assets/images/bike/categories/art/vehicles/auto_5.png',
++           '/assets/images/bike/categories/art/vehicles/auto_7.png',
++           '/assets/images/bike/categories/art/vehicles/auto_8.png',
++           '/assets/images/bike/categories/art/vehicles/auto_9.png',
++           '/assets/images/bike/categories/art/vehicles/auto_10.png',
++           '/assets/images/bike/categories/art/vehicles/auto_11.png',
++           '/assets/images/bike/categories/art/vehicles/auto_12.png'
+          ],
+          thumbs: [
+-           'assets/images/bike/categories/art/vehicles/auto_1_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_2_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_3_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_4_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_5_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_7_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_8_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_9_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_10_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_11_mini.png',
+-           'assets/images/bike/categories/art/vehicles/auto_12_mini.png'
++           '/assets/images/bike/categories/art/vehicles/auto_1_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_2_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_3_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_4_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_5_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_7_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_8_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_9_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_10_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_11_mini.png',
++           '/assets/images/bike/categories/art/vehicles/auto_12_mini.png'
+          ],
+          descriptions: [
+            'Personalizowane buty rowerowe',
+@@ -87,16 +87,16 @@
+        },
+        {
+             title: 'Wrotki, Łyżwy, Buty',
+-            thumbnail: 'assets/images/bike/categories/art/skates/wrotki_1.png',
++            thumbnail: '/assets/images/bike/categories/art/skates/wrotki_1.png',
+             images: [
+-              'assets/images/bike/categories/art/skates/wrotki_1.png',
+-              'assets/images/bike/categories/art/skates/wrotki_2.png',
+-              'assets/images/bike/categories/art/skates/wrotki_3.png'
++              '/assets/images/bike/categories/art/skates/wrotki_1.png',
++              '/assets/images/bike/categories/art/skates/wrotki_2.png',
++              '/assets/images/bike/categories/art/skates/wrotki_3.png'
+             ],
+             thumbs: [
+-              'assets/images/bike/categories/art/skates/wrotki_1_mini.png',
+-              'assets/images/bike/categories/art/skates/wrotki_2_mini.png',
+-              'assets/images/bike/categories/art/skates/wrotki_3_mini.png'
++              '/assets/images/bike/categories/art/skates/wrotki_1_mini.png',
++              '/assets/images/bike/categories/art/skates/wrotki_2_mini.png',
++              '/assets/images/bike/categories/art/skates/wrotki_3_mini.png'
+             ],
+             descriptions: [
+               'Personalizowane buty rowerowe',
+@@ -105,28 +105,28 @@
+           },
+   {
+      title: 'Obrazy',
+-     thumbnail: 'assets/images/bike/categories/art/paintings/painting_1.png',
++     thumbnail: '/assets/images/bike/categories/art/paintings/painting_1.png',
+      images: [
+-       'assets/images/bike/categories/art/paintings/painting_1.png',
+-       'assets/images/bike/categories/art/paintings/painting_2.png',
+-       'assets/images/bike/categories/art/paintings/painting_3.png',
+-       'assets/images/bike/categories/art/paintings/painting_4.png',
+-       'assets/images/bike/categories/art/paintings/painting_5.png',
+-       'assets/images/bike/categories/art/paintings/painting_6.png',
+-       'assets/images/bike/categories/art/paintings/painting_7.png',
+-       'assets/images/bike/categories/art/paintings/painting_8.png',
+-       'assets/images/bike/categories/art/paintings/painting_9.png'
++       '/assets/images/bike/categories/art/paintings/painting_1.png',
++       '/assets/images/bike/categories/art/paintings/painting_2.png',
++       '/assets/images/bike/categories/art/paintings/painting_3.png',
++       '/assets/images/bike/categories/art/paintings/painting_4.png',
++       '/assets/images/bike/categories/art/paintings/painting_5.png',
++       '/assets/images/bike/categories/art/paintings/painting_6.png',
++       '/assets/images/bike/categories/art/paintings/painting_7.png',
++       '/assets/images/bike/categories/art/paintings/painting_8.png',
++       '/assets/images/bike/categories/art/paintings/painting_9.png'
+      ],
+      thumbs: [
+-       'assets/images/bike/categories/art/paintings/painting_1_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_2_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_3_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_4_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_5_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_6_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_7_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_8_mini.png',
+-       'assets/images/bike/categories/art/paintings/painting_9_mini.png'
++       '/assets/images/bike/categories/art/paintings/painting_1_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_2_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_3_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_4_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_5_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_6_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_7_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_8_mini.png',
++       '/assets/images/bike/categories/art/paintings/painting_9_mini.png'
+      ],
+      descriptions: [
+        'Personalizowane buty rowerowe',
+@@ -135,28 +135,28 @@
+    },
+ {
+      title: 'Murale',
+-     thumbnail: 'assets/images/bike/categories/art/murals/mural_1.png',
++     thumbnail: '/assets/images/bike/categories/art/murals/mural_1.png',
+      images: [
+-       'assets/images/bike/categories/art/murals/mural_1.png',
+-       'assets/images/bike/categories/art/murals/mural_2.png',
+-       'assets/images/bike/categories/art/murals/mural_3.png',
+-       'assets/images/bike/categories/art/murals/mural_4.png',
+-       'assets/images/bike/categories/art/murals/mural_5.png',
+-       'assets/images/bike/categories/art/murals/mural_6.png',
+-       'assets/images/bike/categories/art/murals/mural_7.png',
+-       'assets/images/bike/categories/art/murals/mural_8.png',
+-       'assets/images/bike/categories/art/murals/mural_9.png'
++       '/assets/images/bike/categories/art/murals/mural_1.png',
++       '/assets/images/bike/categories/art/murals/mural_2.png',
++       '/assets/images/bike/categories/art/murals/mural_3.png',
++       '/assets/images/bike/categories/art/murals/mural_4.png',
++       '/assets/images/bike/categories/art/murals/mural_5.png',
++       '/assets/images/bike/categories/art/murals/mural_6.png',
++       '/assets/images/bike/categories/art/murals/mural_7.png',
++       '/assets/images/bike/categories/art/murals/mural_8.png',
++       '/assets/images/bike/categories/art/murals/mural_9.png'
+      ],
+      thumbs: [
+-       'assets/images/bike/categories/art/murals/mural_1_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_2_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_3_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_4_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_5_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_6_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_7_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_8_mini.png',
+-       'assets/images/bike/categories/art/murals/mural_9_mini.png'
++       '/assets/images/bike/categories/art/murals/mural_1_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_2_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_3_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_4_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_5_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_6_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_7_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_8_mini.png',
++       '/assets/images/bike/categories/art/murals/mural_9_mini.png'
+      ],
+      descriptions: [
+        'Personalizowane buty rowerowe',
+@@ -165,18 +165,18 @@
+    },
+    {
+      title: 'Praca z drewnem',
+-     thumbnail: 'assets/images/bike/categories/art/wood/wood_0.png',
++     thumbnail: '/assets/images/bike/categories/art/wood/wood_0.png',
+      images: [
+-       'assets/images/bike/categories/art/wood/wood_0.png',
+-       'assets/images/bike/categories/art/wood/wood_1.png',
+-       'assets/images/bike/categories/art/wood/wood_2.png',
+-       'assets/images/bike/categories/art/wood/wood_3.png'
++       '/assets/images/bike/categories/art/wood/wood_0.png',
++       '/assets/images/bike/categories/art/wood/wood_1.png',
++       '/assets/images/bike/categories/art/wood/wood_2.png',
++       '/assets/images/bike/categories/art/wood/wood_3.png'
+      ],
+      thumbs: [
+-       'assets/images/bike/categories/art/wood/wood_0_mini.png',
+-       'assets/images/bike/categories/art/wood/wood_1_mini.png',
+-       'assets/images/bike/categories/art/wood/wood_2_mini.png',
+-       'assets/images/bike/categories/art/wood/wood_3_mini.png'
++       '/assets/images/bike/categories/art/wood/wood_0_mini.png',
++       '/assets/images/bike/categories/art/wood/wood_1_mini.png',
++       '/assets/images/bike/categories/art/wood/wood_2_mini.png',
++       '/assets/images/bike/categories/art/wood/wood_3_mini.png'
+      ],
+      descriptions: [
+        'Unikalny design kasku',
+Index: src/app/pages/art/projects/projects.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/projects/projects.component.ts b/src/app/pages/art/projects/art-projects.component.ts
+rename from src/app/pages/art/projects/projects.component.ts
+rename to src/app/pages/art/projects/art-projects.component.ts
+--- a/src/app/pages/art/projects/projects.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/art/projects/art-projects.component.ts	(date 1771508211518)
+@@ -1,10 +1,10 @@
+ import { Component } from '@angular/core';
+-import { PROJECTS_DATA, ProjectItem } from '../../../shared/data/bike/projects';
++import { PROJECTS_DATA, ProjectItem } from '../../../shared/data/art/projects';
+ 
+ @Component({
+   selector: 'app-art-projects',
+-  templateUrl: './projects.component.html',
+-  styleUrls: ['./projects.component.scss']
++  templateUrl: './art-projects.component.html',
++  styleUrls: ['./art-projects.component.scss']
+ })
+ export class ArtProjectsComponent {
+ 
+Index: src/app/app.module.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { CommonModule } from '@angular/common';\r\nimport { HttpClientModule } from '@angular/common/http';\r\nimport { FormsModule } from '@angular/forms';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { AppComponent } from './app.component';\r\nimport { HeaderComponent } from './core/header/header.component';\r\nimport { FooterComponent } from './core/footer/footer.component';\r\n\r\n// Gateway\r\nimport { GatewayComponent } from './pages/gateway/gateway.component';\r\n\r\n// BIKE (previously root pages)\r\nimport { HomeComponent } from './pages/bike/home/home.component';\r\nimport { OfferComponent } from './pages/bike/offer/offer.component';\r\nimport { OrderComponent } from './pages/bike/order/order.component';\r\nimport { ProjectsComponent } from './pages/bike/projects/projects.component';\r\nimport { GalleryComponent } from './pages/bike/gallery/gallery.component';\r\nimport { AboutComponent } from './pages/bike/about/about.component';\r\n\r\n// ART\r\nimport { ArtHomeComponent } from './pages/art/home/art-home.component';\r\nimport { ArtGalleryComponent } from './pages/art/gallery/art-gallery.component';\r\nimport { ArtAboutComponent } from './pages/art/about/art-about.component';\r\nimport { ArtOfferComponent } from './pages/art/offer/offer.component';\r\nimport { ArtProjectsComponent } from './pages/art/projects/projects.component';\r\n\r\n// MOTO\r\nimport { MotoHomeComponent } from './pages/moto/home/moto-home.component';\r\n\r\n// Shared\r\nimport { LightboxComponent } from './shared/lightbox/lightbox.component';\r\nimport { CategoriesComponent } from './shared/categories/categories.component';\r\nimport { ScrollToTopComponent } from './shared/scroll-to-top/scroll-to-top.component';\r\nimport { HeroScrollButtonComponent } from './shared/hero-scroll-button/hero-scroll-button.component';\r\nimport { CtaButtonComponent } from './shared/cta-button/cta-button.component';\r\nimport { HeroSectionComponent } from './shared/hero-section/hero-section.component';\r\nimport { CookieConsentComponent } from './shared/cookie-consent/cookie-consent.component';\r\nimport { ContactComponent } from './shared/contact/contact.component';\r\n\r\nconst routes: Routes = [\r\n  // Gateway - główna strona wyboru świata\r\n  { path: '', component: GatewayComponent, pathMatch: 'full' },\r\n\r\n  // BIKE routes\r\n  { path: 'bike', component: HomeComponent },\r\n  { path: 'bike/offer', component: OfferComponent },\r\n  { path: 'bike/order', component: OrderComponent },\r\n  { path: 'bike/projects', component: ProjectsComponent },\r\n  { path: 'bike/about', component: AboutComponent },\r\n  { path: 'bike/gallery', component: GalleryComponent },\r\n  { path: 'bike/contact', component: ContactComponent },\r\n\r\n  // ART routes\r\n  { path: 'art', component: ArtHomeComponent },\r\n  { path: 'art/offer', component: ArtOfferComponent },\r\n  { path: 'art/projects', component: ArtProjectsComponent },\r\n  { path: 'art/about', component: ArtAboutComponent },\r\n  { path: 'art/gallery', component: ArtGalleryComponent },\r\n  { path: 'art/contact', component: ContactComponent },\r\n\r\n  // MOTO routes\r\n  { path: 'moto', component: MotoHomeComponent },\r\n  { path: 'moto/contact', component: ContactComponent },\r\n\r\n  // Fallback\r\n  { path: '**', redirectTo: '' }\r\n];\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    HeaderComponent,\r\n    FooterComponent,\r\n\r\n    // Gateway\r\n    GatewayComponent,\r\n\r\n    // BIKE\r\n    HomeComponent,\r\n    OfferComponent,\r\n    OrderComponent,\r\n    ProjectsComponent,\r\n    GalleryComponent,\r\n    AboutComponent,\r\n\r\n    // ART\r\n    ArtHomeComponent,\r\n    ArtOfferComponent,\r\n    ArtProjectsComponent,\r\n    ArtAboutComponent,\r\n    ArtGalleryComponent,\r\n\r\n    // MOTO\r\n    MotoHomeComponent,\r\n\r\n    // Shared\r\n    LightboxComponent,\r\n    CategoriesComponent,\r\n    ScrollToTopComponent,\r\n    HeroScrollButtonComponent,\r\n    CtaButtonComponent,\r\n    HeroSectionComponent,\r\n    CookieConsentComponent,\r\n    ContactComponent\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    CommonModule,\r\n    HttpClientModule,\r\n    FormsModule,\r\n    RouterModule.forRoot(routes, {\r\n      scrollPositionRestoration: 'enabled', // Restores scroll on back button\r\n      anchorScrolling: 'enabled'            // Helps with # IDs\r\n    })\r\n  ],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/app.module.ts b/src/app/app.module.ts
+--- a/src/app/app.module.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/app.module.ts	(date 1771508211580)
+@@ -23,8 +23,8 @@
+ import { ArtHomeComponent } from './pages/art/home/art-home.component';
+ import { ArtGalleryComponent } from './pages/art/gallery/art-gallery.component';
+ import { ArtAboutComponent } from './pages/art/about/art-about.component';
+-import { ArtOfferComponent } from './pages/art/offer/offer.component';
+-import { ArtProjectsComponent } from './pages/art/projects/projects.component';
++import { ArtOfferComponent } from './pages/art/offer/art-offer.component';
++import { ArtProjectsComponent } from './pages/art/projects/art-projects.component';
+ 
+ // MOTO
+ import { MotoHomeComponent } from './pages/moto/home/moto-home.component';
+Index: src/app/shared/data/bike/categories.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { GalleryItem } from '../../models/gallery-item.model';\r\n\r\nexport const categories: GalleryItem[] = [\r\n  {\r\n    id: \"buty\",\r\n    title: \"Buty\",\r\n    thumbnail: \"assets/images/bike/categories/shoes/shoes-thumb.png\",\r\n    images: [\r\n      \"assets/images/bike/categories/shoes/shoes-thumb.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-1.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-2.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-4.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-5.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-6.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-7.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-8.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-9.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-10.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-11.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-12.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-13.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-14.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-15.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/shoes/shoes-thumb_mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-1-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-2-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-4-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-5-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-6-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-7-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-8-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-9-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-10-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-11-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-12-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-13-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-14-mini.png\",\r\n      \"assets/images/bike/categories/shoes/shoes-15-mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\"\r\n    ]\r\n  },\r\n  {\r\n    id: \"kaski\",\r\n    title: \"Kaski\",\r\n    thumbnail: \"assets/images/bike/categories/helmets/helmet-thumb.png\",\r\n    images: [\r\n      \"assets/images/bike/categories/helmets/helmet-thumb.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-1.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-2.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-3.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-4.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-5.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-6.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-7.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-8.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-9.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-10.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-11.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-12.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-13.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-14.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-15.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-16.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-17.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-18.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-19.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-20.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/helmets/helmet-thumb-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-1-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-2-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-3-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-4-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-5-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-6-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-7-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-8-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-9-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-10-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-11-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-12-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-13-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-14-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-15-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-16-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-17-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-18-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-19-mini.png\",\r\n      \"assets/images/bike/categories/helmets/helmet-20-mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\",\r\n      \"Przykładowy projekt przygotowany z pomocą AI\"\r\n    ]\r\n  },\r\n  {\r\n    id: \"ubrania\",\r\n    title: \"Ubrania\",\r\n    thumbnail: \"assets/images/bike/categories/clothes/clothes_1.png\",\r\n    images: [\r\n      \"assets/images/bike/categories/clothes/clothes_1.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_2.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_3.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_4.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_5.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_6.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/clothes/clothes_1_mini.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_2_mini.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_3_mini.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_4_mini.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_5_mini.png\",\r\n      \"assets/images/bike/categories/clothes/clothes_6_mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Realizacja projektu dla Karoliny z Endurofina\",\r\n      \"Realizacja projektu dla Karoliny z Endurofina\",\r\n      \"Realizacja projektu dla Pawła z Endurofina\",\r\n      \"Realizacja projektu dla Pawła z Endurofina\",\r\n      \"Realizacja projektu dla Marcina z Gdyni\",\r\n      \"Realizacja projektu dla Marcina z Gdyni\"\r\n    ]\r\n  },\r\n  {\r\n    id: \"murale\",\r\n    title: \"Murale i Obrazy\",\r\n    thumbnail: \"assets/images/bike/categories/murals/mural_1.png\",\r\n    images: [\r\n      \"assets/images/bike/categories/murals/mural_1.png\",\r\n      \"assets/images/bike/categories/murals/mural_2.png\",\r\n      \"assets/images/bike/categories/murals/mural_3.png\",\r\n      \"assets/images/bike/categories/murals/mural_4.png\",\r\n      \"assets/images/bike/categories/murals/mural_5.png\",\r\n      \"assets/images/bike/categories/murals/mural_6.png\",\r\n      \"assets/images/bike/categories/murals/mural_7.png\",\r\n      \"assets/images/bike/categories/murals/mural_8.png\",\r\n      \"assets/images/bike/categories/murals/mural_9.png\",\r\n      \"assets/images/bike/categories/murals/mural_10.png\",\r\n      \"assets/images/bike/categories/murals/mural_11.png\",\r\n      \"assets/images/bike/categories/murals/mural_12.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/murals/mural_1_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_2_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_3_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_4_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_5_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_6_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_7_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_8_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_9_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_10_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_11_mini.png\",\r\n      \"assets/images/bike/categories/murals/mural_12_mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Realizacja muralu w mieszkaniu w Gdyni\",\r\n      \"Realizacja muralu w mieszkaniu w Gdyni\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Realizacja muralu w mieszkaniu w Gdyni\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu muralu przygotowanego przy pomocy AI\",\r\n      \"Murale na ścianach wewnętrznych i zewnętrznych 3\"\r\n    ]\r\n  },\r\n  {\r\n    id: \"ramy\",\r\n    title: \"Ramy\",\r\n    thumbnail: \"assets/images/bike/categories/bikeframes/rama_0.png\",\r\n    images: [\r\n     \"assets/images/bike/categories/bikeframes/rama_0.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_1.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_3.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_4.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_5.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_6.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_7.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_8.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_9.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_10.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_11.png\",\r\n     \"assets/images/bike/categories/bikeframes/rama_12.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/bikeframes/rama_0_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_1_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_3_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_4_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_5_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_6_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_7_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_8_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_9_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_10_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_11_mini.png\",\r\n      \"assets/images/bike/categories/bikeframes/rama_12_mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Realizacja projektu Porshe Surfari i dopasowanego roweru\",\r\n      \"Realizacja projektu Porshe Surfari i dopasowanego roweru\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\",\r\n      \"Wizualizacja projektu malowania ramy rowerowej przygotowanego przy pomocy AI\"\r\n    ]\r\n  },\r\n{\r\n    id: \"inne\",\r\n    title: \"Inne\",\r\n    thumbnail: \"assets/images/bike/categories/other/miska-1.png\",\r\n    images: [\r\n      \"assets/images/bike/categories/other/miska-1.png\",\r\n      \"assets/images/bike/categories/other/miska-2.png\",\r\n      \"assets/images/bike/categories/other/deska-1.png\",\r\n      \"assets/images/bike/categories/other/deska-2.png\",\r\n      \"assets/images/bike/categories/other/deska-3.png\"\r\n    ],\r\n    thumbs: [\r\n      \"assets/images/bike/categories/other/miska-1-mini.png\",\r\n      \"assets/images/bike/categories/other/miska-2-mini.png\",\r\n      \"assets/images/bike/categories/other/deska-1-mini.png\",\r\n      \"assets/images/bike/categories/other/deska-2-mini.png\",\r\n      \"assets/images/bike/categories/other/deska-3-mini.png\"\r\n    ],\r\n    descriptions: [\r\n      \"Wypalanka na drewnie\",\r\n      \"Wypalanka na drewnie\",\r\n      \"Wypalanka na drewnie\"\r\n    ]\r\n  },\r\n];\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/shared/data/bike/categories.ts b/src/app/shared/data/bike/categories.ts
+--- a/src/app/shared/data/bike/categories.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/shared/data/bike/categories.ts	(date 1771509592770)
+@@ -4,40 +4,40 @@
+   {
+     id: "buty",
+     title: "Buty",
+-    thumbnail: "assets/images/bike/categories/shoes/shoes-thumb.png",
++    thumbnail: "/assets/images/bike/categories/shoes/shoes-thumb.png",
+     images: [
+-      "assets/images/bike/categories/shoes/shoes-thumb.png",
+-      "assets/images/bike/categories/shoes/shoes-1.png",
+-      "assets/images/bike/categories/shoes/shoes-2.png",
+-      "assets/images/bike/categories/shoes/shoes-4.png",
+-      "assets/images/bike/categories/shoes/shoes-5.png",
+-      "assets/images/bike/categories/shoes/shoes-6.png",
+-      "assets/images/bike/categories/shoes/shoes-7.png",
+-      "assets/images/bike/categories/shoes/shoes-8.png",
+-      "assets/images/bike/categories/shoes/shoes-9.png",
+-      "assets/images/bike/categories/shoes/shoes-10.png",
+-      "assets/images/bike/categories/shoes/shoes-11.png",
+-      "assets/images/bike/categories/shoes/shoes-12.png",
+-      "assets/images/bike/categories/shoes/shoes-13.png",
+-      "assets/images/bike/categories/shoes/shoes-14.png",
+-      "assets/images/bike/categories/shoes/shoes-15.png"
++      "/assets/images/bike/categories/shoes/shoes-thumb.png",
++      "/assets/images/bike/categories/shoes/shoes-1.png",
++      "/assets/images/bike/categories/shoes/shoes-2.png",
++      "/assets/images/bike/categories/shoes/shoes-4.png",
++      "/assets/images/bike/categories/shoes/shoes-5.png",
++      "/assets/images/bike/categories/shoes/shoes-6.png",
++      "/assets/images/bike/categories/shoes/shoes-7.png",
++      "/assets/images/bike/categories/shoes/shoes-8.png",
++      "/assets/images/bike/categories/shoes/shoes-9.png",
++      "/assets/images/bike/categories/shoes/shoes-10.png",
++      "/assets/images/bike/categories/shoes/shoes-11.png",
++      "/assets/images/bike/categories/shoes/shoes-12.png",
++      "/assets/images/bike/categories/shoes/shoes-13.png",
++      "/assets/images/bike/categories/shoes/shoes-14.png",
++      "/assets/images/bike/categories/shoes/shoes-15.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/shoes/shoes-thumb_mini.png",
+-      "assets/images/bike/categories/shoes/shoes-1-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-2-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-4-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-5-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-6-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-7-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-8-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-9-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-10-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-11-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-12-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-13-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-14-mini.png",
+-      "assets/images/bike/categories/shoes/shoes-15-mini.png"
++      "/assets/images/bike/categories/shoes/shoes-thumb_mini.png",
++      "/assets/images/bike/categories/shoes/shoes-1-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-2-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-4-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-5-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-6-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-7-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-8-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-9-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-10-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-11-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-12-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-13-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-14-mini.png",
++      "/assets/images/bike/categories/shoes/shoes-15-mini.png"
+     ],
+     descriptions: [
+       "Przykładowy projekt przygotowany z pomocą AI",
+@@ -61,52 +61,52 @@
+   {
+     id: "kaski",
+     title: "Kaski",
+-    thumbnail: "assets/images/bike/categories/helmets/helmet-thumb.png",
++    thumbnail: "/assets/images/bike/categories/helmets/helmet-thumb.png",
+     images: [
+-      "assets/images/bike/categories/helmets/helmet-thumb.png",
+-      "assets/images/bike/categories/helmets/helmet-1.png",
+-      "assets/images/bike/categories/helmets/helmet-2.png",
+-      "assets/images/bike/categories/helmets/helmet-3.png",
+-      "assets/images/bike/categories/helmets/helmet-4.png",
+-      "assets/images/bike/categories/helmets/helmet-5.png",
+-      "assets/images/bike/categories/helmets/helmet-6.png",
+-      "assets/images/bike/categories/helmets/helmet-7.png",
+-      "assets/images/bike/categories/helmets/helmet-8.png",
+-      "assets/images/bike/categories/helmets/helmet-9.png",
+-      "assets/images/bike/categories/helmets/helmet-10.png",
+-      "assets/images/bike/categories/helmets/helmet-11.png",
+-      "assets/images/bike/categories/helmets/helmet-12.png",
+-      "assets/images/bike/categories/helmets/helmet-13.png",
+-      "assets/images/bike/categories/helmets/helmet-14.png",
+-      "assets/images/bike/categories/helmets/helmet-15.png",
+-      "assets/images/bike/categories/helmets/helmet-16.png",
+-      "assets/images/bike/categories/helmets/helmet-17.png",
+-      "assets/images/bike/categories/helmets/helmet-18.png",
+-      "assets/images/bike/categories/helmets/helmet-19.png",
+-      "assets/images/bike/categories/helmets/helmet-20.png"
++      "/assets/images/bike/categories/helmets/helmet-thumb.png",
++      "/assets/images/bike/categories/helmets/helmet-1.png",
++      "/assets/images/bike/categories/helmets/helmet-2.png",
++      "/assets/images/bike/categories/helmets/helmet-3.png",
++      "/assets/images/bike/categories/helmets/helmet-4.png",
++      "/assets/images/bike/categories/helmets/helmet-5.png",
++      "/assets/images/bike/categories/helmets/helmet-6.png",
++      "/assets/images/bike/categories/helmets/helmet-7.png",
++      "/assets/images/bike/categories/helmets/helmet-8.png",
++      "/assets/images/bike/categories/helmets/helmet-9.png",
++      "/assets/images/bike/categories/helmets/helmet-10.png",
++      "/assets/images/bike/categories/helmets/helmet-11.png",
++      "/assets/images/bike/categories/helmets/helmet-12.png",
++      "/assets/images/bike/categories/helmets/helmet-13.png",
++      "/assets/images/bike/categories/helmets/helmet-14.png",
++      "/assets/images/bike/categories/helmets/helmet-15.png",
++      "/assets/images/bike/categories/helmets/helmet-16.png",
++      "/assets/images/bike/categories/helmets/helmet-17.png",
++      "/assets/images/bike/categories/helmets/helmet-18.png",
++      "/assets/images/bike/categories/helmets/helmet-19.png",
++      "/assets/images/bike/categories/helmets/helmet-20.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/helmets/helmet-thumb-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-1-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-2-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-3-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-4-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-5-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-6-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-7-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-8-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-9-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-10-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-11-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-12-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-13-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-14-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-15-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-16-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-17-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-18-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-19-mini.png",
+-      "assets/images/bike/categories/helmets/helmet-20-mini.png"
++      "/assets/images/bike/categories/helmets/helmet-thumb-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-1-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-2-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-3-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-4-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-5-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-6-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-7-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-8-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-9-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-10-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-11-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-12-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-13-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-14-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-15-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-16-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-17-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-18-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-19-mini.png",
++      "/assets/images/bike/categories/helmets/helmet-20-mini.png"
+     ],
+     descriptions: [
+       "Przykładowy projekt przygotowany z pomocą AI",
+@@ -135,22 +135,22 @@
+   {
+     id: "ubrania",
+     title: "Ubrania",
+-    thumbnail: "assets/images/bike/categories/clothes/clothes_1.png",
++    thumbnail: "/assets/images/bike/categories/clothes/clothes_1.png",
+     images: [
+-      "assets/images/bike/categories/clothes/clothes_1.png",
+-      "assets/images/bike/categories/clothes/clothes_2.png",
+-      "assets/images/bike/categories/clothes/clothes_3.png",
+-      "assets/images/bike/categories/clothes/clothes_4.png",
+-      "assets/images/bike/categories/clothes/clothes_5.png",
+-      "assets/images/bike/categories/clothes/clothes_6.png"
++      "/assets/images/bike/categories/clothes/clothes_1.png",
++      "/assets/images/bike/categories/clothes/clothes_2.png",
++      "/assets/images/bike/categories/clothes/clothes_3.png",
++      "/assets/images/bike/categories/clothes/clothes_4.png",
++      "/assets/images/bike/categories/clothes/clothes_5.png",
++      "/assets/images/bike/categories/clothes/clothes_6.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/clothes/clothes_1_mini.png",
+-      "assets/images/bike/categories/clothes/clothes_2_mini.png",
+-      "assets/images/bike/categories/clothes/clothes_3_mini.png",
+-      "assets/images/bike/categories/clothes/clothes_4_mini.png",
+-      "assets/images/bike/categories/clothes/clothes_5_mini.png",
+-      "assets/images/bike/categories/clothes/clothes_6_mini.png"
++      "/assets/images/bike/categories/clothes/clothes_1_mini.png",
++      "/assets/images/bike/categories/clothes/clothes_2_mini.png",
++      "/assets/images/bike/categories/clothes/clothes_3_mini.png",
++      "/assets/images/bike/categories/clothes/clothes_4_mini.png",
++      "/assets/images/bike/categories/clothes/clothes_5_mini.png",
++      "/assets/images/bike/categories/clothes/clothes_6_mini.png"
+     ],
+     descriptions: [
+       "Realizacja projektu dla Karoliny z Endurofina",
+@@ -164,34 +164,34 @@
+   {
+     id: "murale",
+     title: "Murale i Obrazy",
+-    thumbnail: "assets/images/bike/categories/murals/mural_1.png",
++    thumbnail: "/assets/images/bike/categories/murals/mural_1.png",
+     images: [
+-      "assets/images/bike/categories/murals/mural_1.png",
+-      "assets/images/bike/categories/murals/mural_2.png",
+-      "assets/images/bike/categories/murals/mural_3.png",
+-      "assets/images/bike/categories/murals/mural_4.png",
+-      "assets/images/bike/categories/murals/mural_5.png",
+-      "assets/images/bike/categories/murals/mural_6.png",
+-      "assets/images/bike/categories/murals/mural_7.png",
+-      "assets/images/bike/categories/murals/mural_8.png",
+-      "assets/images/bike/categories/murals/mural_9.png",
+-      "assets/images/bike/categories/murals/mural_10.png",
+-      "assets/images/bike/categories/murals/mural_11.png",
+-      "assets/images/bike/categories/murals/mural_12.png"
++      "/assets/images/bike/categories/murals/mural_1.png",
++      "/assets/images/bike/categories/murals/mural_2.png",
++      "/assets/images/bike/categories/murals/mural_3.png",
++      "/assets/images/bike/categories/murals/mural_4.png",
++      "/assets/images/bike/categories/murals/mural_5.png",
++      "/assets/images/bike/categories/murals/mural_6.png",
++      "/assets/images/bike/categories/murals/mural_7.png",
++      "/assets/images/bike/categories/murals/mural_8.png",
++      "/assets/images/bike/categories/murals/mural_9.png",
++      "/assets/images/bike/categories/murals/mural_10.png",
++      "/assets/images/bike/categories/murals/mural_11.png",
++      "/assets/images/bike/categories/murals/mural_12.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/murals/mural_1_mini.png",
+-      "assets/images/bike/categories/murals/mural_2_mini.png",
+-      "assets/images/bike/categories/murals/mural_3_mini.png",
+-      "assets/images/bike/categories/murals/mural_4_mini.png",
+-      "assets/images/bike/categories/murals/mural_5_mini.png",
+-      "assets/images/bike/categories/murals/mural_6_mini.png",
+-      "assets/images/bike/categories/murals/mural_7_mini.png",
+-      "assets/images/bike/categories/murals/mural_8_mini.png",
+-      "assets/images/bike/categories/murals/mural_9_mini.png",
+-      "assets/images/bike/categories/murals/mural_10_mini.png",
+-      "assets/images/bike/categories/murals/mural_11_mini.png",
+-      "assets/images/bike/categories/murals/mural_12_mini.png"
++      "/assets/images/bike/categories/murals/mural_1_mini.png",
++      "/assets/images/bike/categories/murals/mural_2_mini.png",
++      "/assets/images/bike/categories/murals/mural_3_mini.png",
++      "/assets/images/bike/categories/murals/mural_4_mini.png",
++      "/assets/images/bike/categories/murals/mural_5_mini.png",
++      "/assets/images/bike/categories/murals/mural_6_mini.png",
++      "/assets/images/bike/categories/murals/mural_7_mini.png",
++      "/assets/images/bike/categories/murals/mural_8_mini.png",
++      "/assets/images/bike/categories/murals/mural_9_mini.png",
++      "/assets/images/bike/categories/murals/mural_10_mini.png",
++      "/assets/images/bike/categories/murals/mural_11_mini.png",
++      "/assets/images/bike/categories/murals/mural_12_mini.png"
+     ],
+     descriptions: [
+       "Wizualizacja projektu muralu przygotowanego przy pomocy AI",
+@@ -210,34 +210,34 @@
+   {
+     id: "ramy",
+     title: "Ramy",
+-    thumbnail: "assets/images/bike/categories/bikeframes/rama_0.png",
++    thumbnail: "/assets/images/bike/categories/bikeframes/rama_0.png",
+     images: [
+-     "assets/images/bike/categories/bikeframes/rama_0.png",
+-     "assets/images/bike/categories/bikeframes/rama_1.png",
+-     "assets/images/bike/categories/bikeframes/rama_3.png",
+-     "assets/images/bike/categories/bikeframes/rama_4.png",
+-     "assets/images/bike/categories/bikeframes/rama_5.png",
+-     "assets/images/bike/categories/bikeframes/rama_6.png",
+-     "assets/images/bike/categories/bikeframes/rama_7.png",
+-     "assets/images/bike/categories/bikeframes/rama_8.png",
+-     "assets/images/bike/categories/bikeframes/rama_9.png",
+-     "assets/images/bike/categories/bikeframes/rama_10.png",
+-     "assets/images/bike/categories/bikeframes/rama_11.png",
+-     "assets/images/bike/categories/bikeframes/rama_12.png"
++     "/assets/images/bike/categories/bikeframes/rama_0.png",
++     "/assets/images/bike/categories/bikeframes/rama_1.png",
++     "/assets/images/bike/categories/bikeframes/rama_3.png",
++     "/assets/images/bike/categories/bikeframes/rama_4.png",
++     "/assets/images/bike/categories/bikeframes/rama_5.png",
++     "/assets/images/bike/categories/bikeframes/rama_6.png",
++     "/assets/images/bike/categories/bikeframes/rama_7.png",
++     "/assets/images/bike/categories/bikeframes/rama_8.png",
++     "/assets/images/bike/categories/bikeframes/rama_9.png",
++     "/assets/images/bike/categories/bikeframes/rama_10.png",
++     "/assets/images/bike/categories/bikeframes/rama_11.png",
++     "/assets/images/bike/categories/bikeframes/rama_12.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/bikeframes/rama_0_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_1_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_3_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_4_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_5_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_6_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_7_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_8_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_9_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_10_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_11_mini.png",
+-      "assets/images/bike/categories/bikeframes/rama_12_mini.png"
++      "/assets/images/bike/categories/bikeframes/rama_0_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_1_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_3_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_4_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_5_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_6_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_7_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_8_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_9_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_10_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_11_mini.png",
++      "/assets/images/bike/categories/bikeframes/rama_12_mini.png"
+     ],
+     descriptions: [
+       "Realizacja projektu Porshe Surfari i dopasowanego roweru",
+@@ -257,20 +257,20 @@
+ {
+     id: "inne",
+     title: "Inne",
+-    thumbnail: "assets/images/bike/categories/other/miska-1.png",
++    thumbnail: "/assets/images/bike/categories/other/miska-1.png",
+     images: [
+-      "assets/images/bike/categories/other/miska-1.png",
+-      "assets/images/bike/categories/other/miska-2.png",
+-      "assets/images/bike/categories/other/deska-1.png",
+-      "assets/images/bike/categories/other/deska-2.png",
+-      "assets/images/bike/categories/other/deska-3.png"
++      "/assets/images/bike/categories/other/miska-1.png",
++      "/assets/images/bike/categories/other/miska-2.png",
++      "/assets/images/bike/categories/other/deska-1.png",
++      "/assets/images/bike/categories/other/deska-2.png",
++      "/assets/images/bike/categories/other/deska-3.png"
+     ],
+     thumbs: [
+-      "assets/images/bike/categories/other/miska-1-mini.png",
+-      "assets/images/bike/categories/other/miska-2-mini.png",
+-      "assets/images/bike/categories/other/deska-1-mini.png",
+-      "assets/images/bike/categories/other/deska-2-mini.png",
+-      "assets/images/bike/categories/other/deska-3-mini.png"
++      "/assets/images/bike/categories/other/miska-1-mini.png",
++      "/assets/images/bike/categories/other/miska-2-mini.png",
++      "/assets/images/bike/categories/other/deska-1-mini.png",
++      "/assets/images/bike/categories/other/deska-2-mini.png",
++      "/assets/images/bike/categories/other/deska-3-mini.png"
+     ],
+     descriptions: [
+       "Wypalanka na drewnie",
+Index: src/app/shared/data/art/projects.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/shared/data/art/projects.ts b/src/app/shared/data/art/projects.ts
+new file mode 100644
+--- /dev/null	(date 1771508752101)
++++ b/src/app/shared/data/art/projects.ts	(date 1771508752101)
+@@ -0,0 +1,67 @@
++export interface ProjectItem {
++  title: string;
++  meta: string;
++  story: string[];
++  quote: string;
++  details: string[];
++  images: string[];
++}
++
++export const PROJECTS_DATA: ProjectItem[] = [
++  {
++    title: 'Custom buty gravel',
++    meta: 'Arek · Warszawa · gravel / ultra',
++    story: [
++      'Szukałem czegoś, co odróżni mnie na zawodach, ale nie będzie tylko „ładne”.',
++      'Projekt powstał wokół inspiracji krajem kwitnącej wiśni.'
++    ],
++    quote: 'Efekt przerósł moje oczekiwania. Po kilku miesiącach jazdy buty nadal wyglądają świetnie.',
++    details: [
++      'Ręczne malowanie skóry',
++      'Farby elastyczne',
++      'Projekt 100% pod użytkownika'
++    ],
++    images: [
++      '/assets/images/bike/offer/buty_no_bg.png',
++      '/assets/images/bike/offer/buty_szkic.png'
++    ]
++  },
++{
++    title: 'Koszulka dla Michaliny',
++    meta: 'Michalina i jej wierny kompan Atos',
++    story: [
++      'Michalina uwielbia swojego psa Atosa, który jest jej wiernym kompanem podczas spacerów.',
++      'Jej mama postanowiła się sprawić córce niespodziankę wyjątkową koszulką na urodziny.'
++    ],
++    quote: 'Malunek jest niesamowity, Atos wygląda jak prawdziwy',
++    details: [
++      'Malowanie farbami do tkanin',
++      'Twałe, odporne na pranie',
++      'Projekt 100% pod użytkownika'
++    ],
++    images: [
++      '/assets/images/art/projects/atos_1.jpg',
++      '/assets/images/art/projects/atos_2.jpg',
++      '/assets/images/art/projects/atos_3.jpg',
++      '/assets/images/art/projects/atos_4.jpg',
++      '/assets/images/art/projects/atos_5.jpg'
++    ]
++  },
++  {
++    title: 'Kask szosowy – kolory i kwiaty',
++    meta: 'Basia · Kartuzy · szosa',
++    story: [
++      'Chciałam czegoś kolorowego, co wyróżni mnie na codzień i podczas Kaszebe Runda.',
++      'Inspiracją były wzory Kaszubskich kwiatów.'
++    ],
++    quote: 'Na grupowych treningach wszyscy pytają, gdzie zrobiłam ten kask.',
++    details: [
++      'Malowanie bez ingerencji w strukturę',
++      'Dopasowanie do roweru i stroju'
++    ],
++    images: [
++      '/assets/images/bike/offer/kask_no_bg.png',
++      '/assets/images/bike/offer/kask_szkic.png'
++    ]
++  }
++];
+Index: src/app/pages/art/about/art-about.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><app-hero-section\r\n  heroClass=\"hero-about\"\r\n  headline=\"ROWER. SZTUKA. RĘKODZIEŁO.\"\r\n  mobileHeadline=\"ROWER. SZTUKA. RĘKODZIEŁO.\"\r\n  subtext=\"Dwie pasje. <br>Jeden projekt.\"\r\n  mobileSubtext=\"Dwie pasje. Jeden projekt.\"\r\n  buttonLabel=\"Poznaj nas\"\r\n  mobileButtonLabel=\"Poznaj nas\"\r\n  [targetElement]=\"categoriesSection\"\r\n  buttonAriaLabel=\"Przewiń do treści\"\r\n  backgroundImageDesktop=\"/assets/images/art/about/about_desktop.png\"\r\n  backgroundImageMobile=\"/assets/images/art/about/about_mobile.png\">\r\n</app-hero-section>\r\n\r\n<section class=\"about\" #categoriesSection>\r\n  <section class=\"about__product-intro\">\r\n    <p class=\"about__product-intro-text\">\r\n      Personalizujemy ręcznie sprzęt rowerowy — buty, kaski, ramy, ubrania, pompki, gadżety...<br>\r\n      Każdy projekt powstaje pod konkretną osobę i&nbsp;jej wyobraźnię.\r\n    </p>\r\n  </section>\r\n\r\n  <section class=\"about__manifest\">\r\n    <h1 class=\"about__manifest-text\">\r\n      Kolarstwo szosowe, gravelowe, xc, enduro, grawitacyjne...<br>\r\n      To ruch, zabawa, Twoja historia i charakter.\r\n    </h1>\r\n  </section>\r\n\r\n  <section class=\"about__intro\">\r\n    <h2 class=\"about__intro-headline\">\r\n      Dwie pasje.<br>\r\n      Dwie perspektywy.<br>\r\n      Jedno rękodzieło.\r\n    </h2>\r\n    <p class=\"about__intro-description\">\r\n      Nina — sztuka, forma, detal.<br>\r\n      Janek — rower, ruch, funkcja.\r\n    </p>\r\n  </section>\r\n\r\n  <div class=\"about-person\">\r\n    <div class=\"about-person__images\">\r\n      <div class=\"about-person__image about-person__image--primary\">\r\n        <img\r\n          src=\"assets/images/bike/categories/about/about_nina_2.png\"\r\n          alt=\"Nina — artystka\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n      <div class=\"about-person__image about-person__image--secondary\">\r\n        <img\r\n          src=\"assets/images/bike/categories/about/about_nina_1.png\"\r\n          alt=\"Nina — praca artystyczna\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"about-person__text\">\r\n      <h3 class=\"about-person__name\">Nina</h3>\r\n      <p>Ze sztuką związana od najmłodszych lat.</p>\r\n      <p>Rower służył jej zwykle jako środek transportu, ale od jakiegoś czasu zagłębia się w świat dwóch kółek coraz bardziej. Spróbowała triathlonu na rowerze szosowym jak i zielonych zjazdów enduro. Otwarta głowa i chęć do jazdy.</p>\r\n      <p>Każdą powierzchnie przemienia w wyjątkowe dzieło. Plótno, ściana, auto, ubrania, przedmioty użytkowe — dziś także sprzęt rowerowy.</p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"about-person about-person--reverse\">\r\n    <div class=\"about-person__images\">\r\n      <div class=\"about-person__image about-person__image--primary\">\r\n        <img\r\n          src=\"assets/images/bike/categories/about/about_jan_2.png\"\r\n          alt=\"Janek — kolarstwo\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n      <div class=\"about-person__image about-person__image--secondary\">\r\n        <img\r\n          src=\"assets/images/bike/categories/about/about_jan_3.png\"\r\n          alt=\"Janek — rower w akcji\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"about-person__text\">\r\n      <h3 class=\"about-person__name\">Janek</h3>\r\n      <p>Każdy wolny czas spędza w lesie na dwóch kółkach.</p>\r\n      <p>Najlepiej czuje się na wąskich, krętych ścieżkach wśród drzew. Nie odkłada roweru nawet zimą gdy wsakuje na fat bike i bawi się na ośnieżonych singlach.</p>\r\n      <p>Testuje, doradza i pilnuje, żeby każdy projekt był nie tylko estetyczny,\r\n        ale też w pełni użytkowy.</p>\r\n    </div>\r\n  </div>\r\n\r\n  <section class=\"about__belief\">\r\n    <p class=\"about__belief-text\">\r\n      Bo seryjne rzeczy są ładne i&nbsp;funkcjonalne, <br>ale czegoś im brakuje.<br>\r\n      A&nbsp;my wolimy te, które mają charakter, <br>smak i&nbsp;znaczenie.\r\n    </p>\r\n  </section>\r\n\r\n  <section class=\"about__gallery about__gallery--art\">\r\n    <h3 class=\"about__gallery-title\">Doświadczenie z malowaniem</h3>\r\n    <h3 class=\"about__gallery-title\">Prace artystyczne</h3>\r\n    <app-categories\r\n      [items]=\"artworks\"\r\n      tileRatio=\"portrait\">\r\n    </app-categories>\r\n  </section>\r\n\r\n  <section class=\"about__cta-section\">\r\n    <p class=\"about__cta-text\">\r\n      Masz pomysł?<br>\r\n      Zobaczmy, co możemy z nim zrobić.\r\n    </p>\r\n\r\n    <div class=\"about__cta\">\r\n      <app-cta-button\r\n        label=\"Skontaktuj się\"\r\n        mobileLabel=\"Skontaktuj się\"\r\n        routerLink=\"/art/contact\">\r\n      </app-cta-button>\r\n    </div>\r\n  </section>\r\n</section>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/about/art-about.component.html b/src/app/pages/art/about/art-about.component.html
+--- a/src/app/pages/art/about/art-about.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/art/about/art-about.component.html	(date 1771509832768)
+@@ -43,13 +43,13 @@
+     <div class="about-person__images">
+       <div class="about-person__image about-person__image--primary">
+         <img
+-          src="assets/images/bike/categories/about/about_nina_2.png"
++          src="/assets/images/bike/about/about_nina_2.png"
+           alt="Nina — artystka"
+           loading="lazy" />
+       </div>
+       <div class="about-person__image about-person__image--secondary">
+         <img
+-          src="assets/images/bike/categories/about/about_nina_1.png"
++          src="/assets/images/bike/about/about_nina_1.png"
+           alt="Nina — praca artystyczna"
+           loading="lazy" />
+       </div>
+@@ -67,13 +67,13 @@
+     <div class="about-person__images">
+       <div class="about-person__image about-person__image--primary">
+         <img
+-          src="assets/images/bike/categories/about/about_jan_2.png"
++          src="/assets/images/bike/about/about_jan_2.png"
+           alt="Janek — kolarstwo"
+           loading="lazy" />
+       </div>
+       <div class="about-person__image about-person__image--secondary">
+         <img
+-          src="assets/images/bike/categories/about/about_jan_3.png"
++          src="/assets/images/bike/about/about_jan_3.png"
+           alt="Janek — rower w akcji"
+           loading="lazy" />
+       </div>
+Index: src/app/pages/bike/offer/offer.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><app-hero-section\r\n  heroClass=\"hero-offer\"\r\n  headline=\"TWÓJ STYL,<br>NASZE FARBY\"\r\n  mobileHeadline=\"TWÓJ STYL, NASZE FARBY\"\r\n  subtext=\"Zamieniamy pomysł w detal,<br>który zostaje na długo.\"\r\n  mobileSubtext=\"Zamieniamy pomysł w detal, który zostaje na długo.\"\r\n  buttonLabel=\"Sprawdź ofertę\"\r\n  mobileButtonLabel=\"Sprawdź ofertę\"\r\n  [targetElement]=\"categoriesSection\"\r\n  buttonAriaLabel=\"Przewiń do treści\"\r\n  backgroundImageDesktop=\"/assets/images/bike/offer/offer_desktop.png\"\r\n  backgroundImageMobile=\"/assets/images/bike/offer/offer_mobile_cut.png\">\r\n</app-hero-section>\r\n\r\n<section class=\"offer\" #categoriesSection>\r\n  <h1 class=\"section-subtitle\">\r\n    MALOWANIE ARTYSTYCZNE. NA SPRZĘCIE I W PRZESTRZENI.\r\n  </h1>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--buty\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        BUTY ROWEROWE – detal, który przyciąga wzrok.\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Element, który – wbrew pozorom – każdy zauważa.\r\n        Sprawimy, że Twoje buty będą jedyne w swoim rodzaju.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Pełna personalizacja</strong> – skóra <br>i materiały syntetyczne</li>\r\n        <li><strong>Trwałość</strong> – farby elastyczne, odporne na warunki</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/buty_no_bg.png\" alt=\"Personalizowane buty rowerowe\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--kaski\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        KASK – Twoja wizytówka <br>w&nbsp;peletonie\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Bezpieczeństwo może iść w&nbsp;parze <br>z&nbsp;charakterem.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Grafiki i&nbsp;napisy</strong></li>\r\n        <li><strong>Dopasowanie</strong> do stroju i&nbsp;roweru</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/kask_no_bg.png\" alt=\"Ręcznie malowane kaski\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--odziez\" data-scroll-reveal=\"left\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        ODZIEŻ – sztuka, którą możesz nosić\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Autorskie projekty przenoszone na odzież codzienną i lifestyle’ową.\r\n        Tworzymy rzeczy, które podkreślają osobowość – nie masową produkcję.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Bawełna i tkaniny naturalne</strong> – idealne pod artystyczne realizacje</li>\r\n        <li><strong>Indywidualny projekt</strong> dopasowany do Twojego stylu</li>\r\n        <li><strong>Trwałe wykończenie</strong> odporne na użytkowanie i pranie</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/koszulka_no_bg.png\" alt=\"Ręcznie malowana odzież\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--ramy\" data-scroll-reveal=\"right\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        RAMY ROWEROWE – detal dla koneserów\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Nie lakierujemy całej ramy, a&nbsp;jedynie wybrane elementy – dla subtelnego efektu.\r\n        <br>Tworzymy detale, które podkreślają charakter roweru i&nbsp;jego właściciela.\r\n        Usluga ta będzie dostępna wkrótce.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Wyjątkowe detale</strong></li>\r\n        <li><strong>Wyróżnij swój rower </strong></li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/rama_no_bg.png\" alt=\"Personalizowane ramy rowerowe\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--murale\" data-scroll-reveal=\"left\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        MURALE I OBRAZY – pasja w dużym formacie\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Tworzymy realizacje artystyczne w&nbsp;przestrzeni prywatnej i&nbsp;komercyjnej.\r\n        Od kameralnych obrazów po wielkoformatowe murale – każdy projekt powstaje z&nbsp;myślą o&nbsp;miejscu <br>i&nbsp;jego charakterze.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Obrazy na płótnie</strong> – do wnętrz prywatnych i&nbsp;biur</li>\r\n        <li><strong>Mural dopasowany do przestrzeni</strong> – dom, studio, lokal</li>\r\n        <li><strong>Autorski projekt</strong> tworzony od koncepcji po realizację</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/mural_7.png\" alt=\"Murale artystyczne\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"offer__item offer__item--with-image offer__item--inne\" data-scroll-reveal=\"right\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        NIETYPOWE POWIERZCHNIE <br>– malujemy, co tylko chcesz\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Malujemy i wypalamy na różnych materiałach – żadna powierzchnia nie jest nam straszna.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Drewniane deski, miski, naczynia</strong></li>\r\n        <li><strong>Korkowe maty do jogi</strong></li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"assets/images/bike/offer/miska_no_bg.png\" alt=\"Nietypowe powierzchnie\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"about__contact\">\r\n    <p><strong>Masz nietypowy pomysł?<br>\r\n      Chcesz, żeby Twój sprzęt lub przestrzeń mówiły coś więcej niż „seryjny produkt\"?</strong></p>\r\n\r\n    <p>Napisz do&nbsp;nas.<br>\r\n      Zamienimy Twoją wizję w&nbsp;coś realnego.</p>\r\n  </div>\r\n\r\n  <div class=\"about__cta\">\r\n    <app-cta-button\r\n      label=\"Jak działamy? To takie proste!\"\r\n      mobileLabel=\"Jak działamy? To proste!\"\r\n      routerLink=\"/bike/order\"\r\n      ariaLabel=\"Jak działamy? To proste!\">\r\n    </app-cta-button>\r\n  </div>\r\n</section>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/bike/offer/offer.component.html b/src/app/pages/bike/offer/offer.component.html
+--- a/src/app/pages/bike/offer/offer.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/bike/offer/offer.component.html	(date 1771509729163)
+@@ -33,7 +33,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/buty_no_bg.png" alt="Personalizowane buty rowerowe" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/buty_no_bg.png" alt="Personalizowane buty rowerowe" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -52,7 +52,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/kask_no_bg.png" alt="Ręcznie malowane kaski" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/kask_no_bg.png" alt="Ręcznie malowane kaski" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -73,7 +73,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/koszulka_no_bg.png" alt="Ręcznie malowana odzież" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/koszulka_no_bg.png" alt="Ręcznie malowana odzież" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -94,7 +94,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/rama_no_bg.png" alt="Personalizowane ramy rowerowe" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/rama_no_bg.png" alt="Personalizowane ramy rowerowe" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -115,7 +115,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/mural_7.png" alt="Murale artystyczne" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/mural_7.png" alt="Murale artystyczne" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -134,7 +134,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/offer/miska_no_bg.png" alt="Nietypowe powierzchnie" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/miska_no_bg.png" alt="Nietypowe powierzchnie" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+Index: src/app/pages/bike/about/about.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><app-hero-section\r\n  heroClass=\"hero-about\"\r\n  headline=\"ROWER. SZTUKA. RĘKODZIEŁO.\"\r\n  mobileHeadline=\"ROWER. SZTUKA. RĘKODZIEŁO.\"\r\n  subtext=\"Dwie pasje. <br>Jeden projekt.\"\r\n  mobileSubtext=\"Dwie pasje. Jeden projekt.\"\r\n  buttonLabel=\"Poznaj nas\"\r\n  mobileButtonLabel=\"Poznaj nas\"\r\n  [targetElement]=\"categoriesSection\"\r\n  buttonAriaLabel=\"Przewiń do treści\"\r\n  backgroundImageDesktop=\"/assets/images/bike/about/about_desktop.png\"\r\n  backgroundImageMobile=\"/assets/images/bike/about/about_mobile.png\">\r\n</app-hero-section>\r\n\r\n<section class=\"about\" #categoriesSection>\r\n  <section class=\"about__product-intro\">\r\n    <p class=\"about__product-intro-text\">\r\n      Personalizujemy ręcznie sprzęt rowerowy — buty, kaski, ramy, ubrania, pompki, gadżety...<br>\r\n      Każdy projekt powstaje pod konkretną osobę i&nbsp;jej wyobraźnię.\r\n    </p>\r\n  </section>\r\n\r\n  <section class=\"about__manifest\">\r\n    <h1 class=\"about__manifest-text\">\r\n      Kolarstwo szosowe, gravelowe, xc, enduro, grawitacyjne...<br>\r\n      To ruch, zabawa, Twoja historia i charakter.\r\n    </h1>\r\n  </section>\r\n\r\n  <section class=\"about__intro\">\r\n    <h2 class=\"about__intro-headline\">\r\n      Dwie pasje.<br>\r\n      Dwie perspektywy.<br>\r\n      Jedno rękodzieło.\r\n    </h2>\r\n    <p class=\"about__intro-description\">\r\n      Nina — sztuka, forma, detal.<br>\r\n      Janek — rower, ruch, funkcja.\r\n    </p>\r\n  </section>\r\n\r\n  <div class=\"about-person\">\r\n    <div class=\"about-person__images\">\r\n      <div class=\"about-person__image about-person__image--primary\">\r\n        <img\r\n          src=\"assets/images/bike/about/about_nina_2.png\"\r\n          alt=\"Nina — artystka\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n      <div class=\"about-person__image about-person__image--secondary\">\r\n        <img\r\n          src=\"assets/images/bike/about/about_nina_1.png\"\r\n          alt=\"Nina — praca artystyczna\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"about-person__text\">\r\n      <h3 class=\"about-person__name\">Nina</h3>\r\n      <p>Ze sztuką związana od najmłodszych lat.</p>\r\n      <p>Rower służył jej zwykle jako środek transportu, ale od jakiegoś czasu zagłębia się w świat dwóch kółek coraz bardziej. Spróbowała triathlonu na rowerze szosowym jak i zielonych zjazdów enduro. Otwarta głowa i chęć do jazdy.</p>\r\n      <p>Każdą powierzchnie przemienia w wyjątkowe dzieło. Plótno, ściana, auto, ubrania, przedmioty użytkowe — dziś także sprzęt rowerowy.</p>\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"about-person about-person--reverse\">\r\n    <div class=\"about-person__images\">\r\n      <div class=\"about-person__image about-person__image--primary\">\r\n        <img\r\n          src=\"assets/images/bike/about/about_jan_2.png\"\r\n          alt=\"Janek — kolarstwo\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n      <div class=\"about-person__image about-person__image--secondary\">\r\n        <img\r\n          src=\"assets/images/bike/about/about_jan_3.png\"\r\n          alt=\"Janek — rower w akcji\"\r\n          loading=\"lazy\" />\r\n      </div>\r\n    </div>\r\n\r\n    <div class=\"about-person__text\">\r\n      <h3 class=\"about-person__name\">Janek</h3>\r\n      <p>Każdy wolny czas spędza w lesie na dwóch kółkach.</p>\r\n      <p>Najlepiej czuje się na wąskich, krętych ścieżkach wśród drzew. Nie odkłada roweru nawet zimą gdy wsakuje na fat bike i bawi się na ośnieżonych singlach.</p>\r\n      <p>Testuje, doradza i pilnuje, żeby każdy projekt był nie tylko estetyczny,\r\n        ale też w pełni użytkowy.</p>\r\n    </div>\r\n  </div>\r\n\r\n  <section class=\"about__belief\">\r\n    <p class=\"about__belief-text\">\r\n      Bo seryjne rzeczy są ładne i&nbsp;funkcjonalne, <br>ale czegoś im brakuje.<br>\r\n      A&nbsp;my wolimy te, które mają charakter, <br>smak i&nbsp;znaczenie.\r\n    </p>\r\n  </section>\r\n\r\n  <section class=\"about__gallery about__gallery--art\">\r\n    <h3 class=\"about__gallery-title\">Doświadczenie z malowaniem</h3>\r\n    <h3 class=\"about__gallery-title\">Prace artystyczne</h3>\r\n    <app-categories\r\n      [items]=\"artworks\"\r\n      tileRatio=\"portrait\">\r\n    </app-categories>\r\n  </section>\r\n\r\n  <section class=\"about__cta-section\">\r\n    <p class=\"about__cta-text\">\r\n      Masz pomysł?<br>\r\n      Zobaczmy, co możemy z nim zrobić.\r\n    </p>\r\n\r\n    <div class=\"about__cta\">\r\n      <app-cta-button\r\n        label=\"Skontaktuj się\"\r\n        mobileLabel=\"Skontaktuj się\"\r\n        routerLink=\"/bike/contact\">\r\n      </app-cta-button>\r\n    </div>\r\n  </section>\r\n</section>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/bike/about/about.component.html b/src/app/pages/bike/about/about.component.html
+--- a/src/app/pages/bike/about/about.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/bike/about/about.component.html	(date 1771509756763)
+@@ -43,13 +43,13 @@
+     <div class="about-person__images">
+       <div class="about-person__image about-person__image--primary">
+         <img
+-          src="assets/images/bike/about/about_nina_2.png"
++          src="/assets/images/bike/about/about_nina_2.png"
+           alt="Nina — artystka"
+           loading="lazy" />
+       </div>
+       <div class="about-person__image about-person__image--secondary">
+         <img
+-          src="assets/images/bike/about/about_nina_1.png"
++          src="/assets/images/bike/about/about_nina_1.png"
+           alt="Nina — praca artystyczna"
+           loading="lazy" />
+       </div>
+@@ -67,13 +67,13 @@
+     <div class="about-person__images">
+       <div class="about-person__image about-person__image--primary">
+         <img
+-          src="assets/images/bike/about/about_jan_2.png"
++          src="/assets/images/bike/about/about_jan_2.png"
+           alt="Janek — kolarstwo"
+           loading="lazy" />
+       </div>
+       <div class="about-person__image about-person__image--secondary">
+         <img
+-          src="assets/images/bike/about/about_jan_3.png"
++          src="/assets/images/bike/about/about_jan_3.png"
+           alt="Janek — rower w akcji"
+           loading="lazy" />
+       </div>
+Index: src/app/shared/categories/categories.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><div\r\n  class=\"categories\"\r\n  [ngClass]=\"{\r\n    'categories--portrait': tileRatio === 'portrait',\r\n    'categories--landscape': tileRatio === 'landscape'\r\n  }\"\r\n  *ngIf=\"items?.length\">\r\n  <div\r\n    *ngFor=\"let c of items; let i = index\"\r\n    class=\"categories__tile\"\r\n    (click)=\"open(c, $event)\"\r\n    (keydown.enter)=\"open(c, $event)\"\r\n    tabindex=\"0\"\r\n    role=\"button\">\r\n    <img\r\n      class=\"categories__tile-image\"\r\n      [src]=\"c.thumbnail\"\r\n      [alt]=\"c.title\"\r\n      loading=\"lazy\"\r\n      width=\"400\"\r\n      height=\"300\" />\r\n    <div class=\"categories__tile-title\">\r\n      {{ c.title }}\r\n    </div>\r\n  </div>\r\n</div>\r\n\r\n<app-lightbox\r\n  [images]=\"activeImages\"\r\n  [thumbs]=\"activeThumbs\"\r\n  [descriptions]=\"activeDescriptions\"\r\n  [title]=\"activeTitle\"\r\n  [visible]=\"lightboxVisible\"\r\n  (closed)=\"lightboxVisible = false\">\r\n</app-lightbox>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/shared/categories/categories.component.html b/src/app/shared/categories/categories.component.html
+--- a/src/app/shared/categories/categories.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/shared/categories/categories.component.html	(date 1771510193241)
+@@ -1,3 +1,7 @@
++<div style="background: yellow; padding: 10px; margin: 10px;">
++  🔍 DEBUG: CategoriesComponent is rendering. Items count: {{ items?.length || 0 }}
++</div>
++
+ <div
+   class="categories"
+   [ngClass]="{
+Index: src/app/shared/categories/categories.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { Component, Input } from '@angular/core';\r\nimport { GalleryItem } from '../models/gallery-item.model';\r\n\r\n@Component({\r\n  selector: 'app-categories',\r\n  templateUrl: './categories.component.html',\r\n  styleUrls: ['./categories.component.scss'],\r\n})\r\nexport class CategoriesComponent {\r\n  @Input() items: GalleryItem[] = [];\r\n  @Input() tileRatio: 'landscape' | 'portrait' = 'landscape';\r\n\r\n  activeImages: string[] = [];\r\n  activeThumbs: string[] = [];\r\n  activeDescriptions: string[] = [];\r\n  activeTitle = '';\r\n  lightboxVisible = false;\r\n\r\n  open(item: GalleryItem, event?: Event): void {\r\n    event?.preventDefault();\r\n    event?.stopPropagation();\r\n\r\n    this.lightboxVisible = false;\r\n\r\n    setTimeout(() => {\r\n      this.activeImages = item.images;\r\n      this.activeThumbs = item.thumbs?.length ? item.thumbs : item.images;\r\n      this.activeDescriptions = item.descriptions || [];\r\n      this.activeTitle = item.title;\r\n      this.lightboxVisible = true;\r\n    }, 0);\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/shared/categories/categories.component.ts b/src/app/shared/categories/categories.component.ts
+--- a/src/app/shared/categories/categories.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/shared/categories/categories.component.ts	(date 1771510193241)
+@@ -1,4 +1,4 @@
+-import { Component, Input } from '@angular/core';
++import { Component, Input, OnInit } from '@angular/core';
+ import { GalleryItem } from '../models/gallery-item.model';
+ 
+ @Component({
+@@ -6,10 +6,15 @@
+   templateUrl: './categories.component.html',
+   styleUrls: ['./categories.component.scss'],
+ })
+-export class CategoriesComponent {
++export class CategoriesComponent implements OnInit {
+   @Input() items: GalleryItem[] = [];
+   @Input() tileRatio: 'landscape' | 'portrait' = 'landscape';
+ 
++  ngOnInit() {
++    console.log('🔍 CategoriesComponent - items:', this.items);
++    console.log('🔍 CategoriesComponent - items.length:', this.items?.length);
++  }
++
+   activeImages: string[] = [];
+   activeThumbs: string[] = [];
+   activeDescriptions: string[] = [];
+Index: src/app/core/footer/footer.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><footer class=\"footer\" *ngIf=\"!isGatewayMode\">\r\n  <div class=\"footer-text\">\r\n    © {{year}} Rowerowe Rękodzieło\r\n  </div>\r\n\r\n  <img\r\n    class=\"footer-logo\"\r\n    src=\"assets/images/bike/categories/layout/logo_r.png\"\r\n    alt=\"Logo\"\r\n    loading=\"lazy\"\r\n    width=\"128\"\r\n    height=\"128\" />\r\n</footer>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/core/footer/footer.component.html b/src/app/core/footer/footer.component.html
+--- a/src/app/core/footer/footer.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/core/footer/footer.component.html	(date 1771509764266)
+@@ -5,7 +5,7 @@
+ 
+   <img
+     class="footer-logo"
+-    src="assets/images/bike/categories/layout/logo_r.png"
++    src="/assets/images/bike/categories/layout/logo_r.png"
+     alt="Logo"
+     loading="lazy"
+     width="128"
+Index: src/app/core/footer/footer.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { Component, OnInit } from '@angular/core';\r\nimport { Router, NavigationEnd } from '@angular/router';\r\nimport { filter } from 'rxjs/operators';\r\n\r\n@Component({\r\n  selector: 'app-footer',\r\n  templateUrl: './footer.component.html',\r\n  styleUrls: ['./footer.component.scss']\r\n})\r\nexport class FooterComponent implements OnInit {\r\n  year = new Date().getFullYear();\r\n  currentWorld: 'gateway' | 'bike' | 'art' | 'moto' = 'gateway';\r\n\r\n  constructor(private router: Router) {}\r\n\r\n  ngOnInit(): void {\r\n    this.detectWorld(this.router.url);\r\n\r\n    this.router.events\r\n      .pipe(filter(event => event instanceof NavigationEnd))\r\n      .subscribe((event: any) => {\r\n        this.detectWorld(event.url);\r\n      });\r\n  }\r\n\r\n  private detectWorld(url: string): void {\r\n    if (url.startsWith('/bike')) {\r\n      this.currentWorld = 'bike';\r\n    } else if (url.startsWith('/art')) {\r\n      this.currentWorld = 'art';\r\n    } else if (url.startsWith('/moto')) {\r\n      this.currentWorld = 'moto';\r\n    } else {\r\n      this.currentWorld = 'gateway';\r\n    }\r\n  }\r\n\r\n  get isGatewayMode(): boolean {\r\n    return this.currentWorld === 'gateway';\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/core/footer/footer.component.ts b/src/app/core/footer/footer.component.ts
+--- a/src/app/core/footer/footer.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/core/footer/footer.component.ts	(date 1771509463819)
+@@ -24,14 +24,17 @@
+   }
+ 
+   private detectWorld(url: string): void {
+-    if (url.startsWith('/bike')) {
++    if (url === '/' || url === '') {
++      this.currentWorld = 'gateway';
++    } else if (url.startsWith('/bike')) {
+       this.currentWorld = 'bike';
+     } else if (url.startsWith('/art')) {
+       this.currentWorld = 'art';
+     } else if (url.startsWith('/moto')) {
+       this.currentWorld = 'moto';
+     } else {
+-      this.currentWorld = 'gateway';
++      // Jeśli nie pasuje do żadnego, domyślnie bike (dla bezpieczeństwa)
++      this.currentWorld = 'bike';
+     }
+   }
+ 
+Index: src/app/core/header/header.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { Component, OnInit } from '@angular/core';\r\nimport { Router, NavigationEnd } from '@angular/router';\r\nimport { filter } from 'rxjs/operators';\r\n\r\n@Component({\r\n  selector: 'app-header',\r\n  templateUrl: './header.component.html',\r\n  styleUrls: ['./header.component.scss']\r\n})\r\nexport class HeaderComponent implements OnInit {\r\n  isMenuOpen = false;\r\n  currentWorld: 'gateway' | 'bike' | 'art' | 'moto' = 'gateway';\r\n\r\n  constructor(private router: Router) {}\r\n\r\n  ngOnInit(): void {\r\n    // Detekcja aktualnego świata na podstawie URL\r\n    this.detectWorld(this.router.url);\r\n\r\n    this.router.events\r\n      .pipe(filter(event => event instanceof NavigationEnd))\r\n      .subscribe((event: any) => {\r\n        this.detectWorld(event.url);\r\n        this.closeMenu();\r\n      });\r\n  }\r\n\r\n  private detectWorld(url: string): void {\r\n    if (url.startsWith('/bike')) {\r\n      this.currentWorld = 'bike';\r\n    } else if (url.startsWith('/art')) {\r\n      this.currentWorld = 'art';\r\n    } else if (url.startsWith('/moto')) {\r\n      this.currentWorld = 'moto';\r\n    } else {\r\n      this.currentWorld = 'gateway';\r\n    }\r\n  }\r\n\r\n  toggleMenu(): void {\r\n    this.isMenuOpen = !this.isMenuOpen;\r\n  }\r\n\r\n  closeMenu(): void {\r\n    this.isMenuOpen = false;\r\n  }\r\n\r\n  get isGatewayMode(): boolean {\r\n    return this.currentWorld === 'gateway';\r\n  }\r\n\r\n  get isBikeMode(): boolean {\r\n    return this.currentWorld === 'bike';\r\n  }\r\n\r\n  get isArtMode(): boolean {\r\n    return this.currentWorld === 'art';\r\n  }\r\n\r\n  get isMotoMode(): boolean {\r\n    return this.currentWorld === 'moto';\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/core/header/header.component.ts b/src/app/core/header/header.component.ts
+--- a/src/app/core/header/header.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/core/header/header.component.ts	(date 1771509450986)
+@@ -26,14 +26,17 @@
+   }
+ 
+   private detectWorld(url: string): void {
+-    if (url.startsWith('/bike')) {
++    if (url === '/' || url === '') {
++      this.currentWorld = 'gateway';
++    } else if (url.startsWith('/bike')) {
+       this.currentWorld = 'bike';
+     } else if (url.startsWith('/art')) {
+       this.currentWorld = 'art';
+     } else if (url.startsWith('/moto')) {
+       this.currentWorld = 'moto';
+     } else {
+-      this.currentWorld = 'gateway';
++      // Jeśli nie pasuje do żadnego, domyślnie bike (dla bezpieczeństwa)
++      this.currentWorld = 'bike';
+     }
+   }
+ 
+Index: src/app/pages/art/offer/offer.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/offer/offer.component.html b/src/app/pages/art/offer/art-offer.component.html
+rename from src/app/pages/art/offer/offer.component.html
+rename to src/app/pages/art/offer/art-offer.component.html
+--- a/src/app/pages/art/offer/offer.component.html	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/art/offer/art-offer.component.html	(date 1771509823454)
+@@ -33,7 +33,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/offer/buty_no_bg.png" alt="Personalizowane buty rowerowe" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/buty_no_bg.png" alt="Personalizowane buty rowerowe" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -52,7 +52,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/offer/kask_no_bg.png" alt="Ręcznie malowane kaski" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/kask_no_bg.png" alt="Ręcznie malowane kaski" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -73,7 +73,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/offer/koszulka_no_bg.png" alt="Ręcznie malowana odzież" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/koszulka_no_bg.png" alt="Ręcznie malowana odzież" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -94,7 +94,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/offer/rama_no_bg.png" alt="Personalizowane ramy rowerowe" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/rama_no_bg.png" alt="Personalizowane ramy rowerowe" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -115,7 +115,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/murals/mural_7.png" alt="Murale artystyczne" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/categories/murals/mural_7.png" alt="Murale artystyczne" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+@@ -134,7 +134,7 @@
+     </div>
+ 
+     <div class="offer__item-image">
+-      <img src="assets/images/bike/categories/offer/miska_no_bg.png" alt="Nietypowe powierzchnie" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/bike/offer/miska_no_bg.png" alt="Nietypowe powierzchnie" loading="lazy" width="260" height="180" />
+     </div>
+   </div>
+ 
+Index: src/app/pages/bike/home/home.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { Component } from '@angular/core';\r\nimport { categories } from '../../../shared/data/bike/categories';\r\n\r\n@Component({\r\n  selector: \"app-home\",\r\n  templateUrl: \"./home.component.html\",\r\n  styleUrls: [\"./home.component.scss\"],\r\n})\r\nexport class HomeComponent {\r\n  categories = categories;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/bike/home/home.component.ts b/src/app/pages/bike/home/home.component.ts
+--- a/src/app/pages/bike/home/home.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/bike/home/home.component.ts	(date 1771510193225)
+@@ -1,4 +1,4 @@
+-import { Component } from '@angular/core';
++import { Component, OnInit } from '@angular/core';
+ import { categories } from '../../../shared/data/bike/categories';
+ 
+ @Component({
+@@ -6,6 +6,11 @@
+   templateUrl: "./home.component.html",
+   styleUrls: ["./home.component.scss"],
+ })
+-export class HomeComponent {
++export class HomeComponent implements OnInit {
+   categories = categories;
++
++  ngOnInit() {
++    console.log('🏠 HomeComponent - categories:', this.categories);
++    console.log('🏠 HomeComponent - categories.length:', this.categories?.length);
++  }
+ }
+Index: src/app/pages/art/offer/offer.component.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/offer/offer.component.ts b/src/app/pages/art/offer/art-offer.component.ts
+rename from src/app/pages/art/offer/offer.component.ts
+rename to src/app/pages/art/offer/art-offer.component.ts
+--- a/src/app/pages/art/offer/offer.component.ts	(revision 7f7cb3769e72a64f280f5ab724fd522b7bc2678a)
++++ b/src/app/pages/art/offer/art-offer.component.ts	(date 1771508211441)
+@@ -3,9 +3,9 @@
+ import { Subscription } from 'rxjs';
+ 
+ @Component({
+-  selector: 'app-offer',
+-  templateUrl: './offer.component.html',
+-  styleUrls: ['./offer.component.scss']
++  selector: 'app-art-offer',
++  templateUrl: './art-offer.component.html',
++  styleUrls: ['./art-offer.component.scss']
+ })
+ export class ArtOfferComponent implements AfterViewInit, OnDestroy {
+ 
+diff --git a/src/app/pages/art/projects/projects.component.scss b/src/app/pages/art/projects/art-projects.component.scss
+rename from src/app/pages/art/projects/projects.component.scss
+rename to src/app/pages/art/projects/art-projects.component.scss
+diff --git a/src/app/pages/art/offer/offer.component.scss b/src/app/pages/art/offer/art-offer.component.scss
+rename from src/app/pages/art/offer/offer.component.scss
+rename to src/app/pages/art/offer/art-offer.component.scss
+diff --git a/src/app/pages/art/projects/projects.component.html b/src/app/pages/art/projects/art-projects.component.html
+rename from src/app/pages/art/projects/projects.component.html
+rename to src/app/pages/art/projects/art-projects.component.html

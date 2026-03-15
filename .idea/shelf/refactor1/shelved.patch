@@ -1,0 +1,639 @@
+Index: src/app/pages/art/offer/art-offer.component.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><app-hero-section\r\n        heroClass=\"hero-offer\"\r\n        headline=\"TWÓJ STYL,<br>NASZE FARBY\"\r\n        mobileHeadline=\"TWÓJ STYL, NASZE FARBY\"\r\n        subtext=\"Tworzymy sztukę, która nadaje przestrzeni charakter.\"\r\n        mobileSubtext=\"Tworzymy sztukę, która nadaje przestrzeni charakter.\"\r\n        buttonLabel=\"Poznaj ofertę\"\r\n        mobileButtonLabel=\"Poznaj ofertę\"\r\n        [targetElement]=\"categoriesSection\"\r\n        buttonAriaLabel=\"Przewiń do treści\"\r\n        backgroundImageDesktop=\"/assets/images/bike/categories/layout/buty_desktop.png\"\r\n        backgroundImageMobile=\"/assets/images/bike/categories/layout/buty_mobile_cut.png\">\r\n</app-hero-section>\r\n\r\n<section class=\"offer\" #categoriesSection>\r\n  <h1 class=\"section-subtitle\">\r\n    SZTUKA AUTORSKA. NA&nbsp;PRZEDMIOTACH I&nbsp;W&nbsp;PRZESTRZENI.\r\n  </h1>\r\n\r\n  <!-- OBRAZY -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--obrazy\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        OBRAZY – autorskie kompozycje tworzone na&nbsp;zamówienie\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Tworzymy obrazy dopasowane do wnętrza, osobowości i&nbsp;estetyki właściciela.\r\n        Każda realizacja powstaje od koncepcji, przez szkic, po finalne wykończenie – bez szablonów i&nbsp;powtórzeń.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Pejzaże, abstrakcja, sztuka nowoczesna</strong></li>\r\n        <li><strong>Format i kolorystyka</strong> dopasowane do przestrzeni</li>\r\n        <li><strong>Autorski projekt</strong> tworzony indywidualnie</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/obraz.png\" alt=\"Autorski obraz na zamówienie\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <!-- MURALE -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--murale\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        MURALE – sztuka w dużym formacie\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Projektujemy i realizujemy murale w&nbsp;przestrzeniach prywatnych oraz komercyjnych.\r\n        Tworzymy kompozycje, które definiują klimat wnętrza lub budynku i budują jego unikalną tożsamość.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Wnętrza prywatne, studia, lokale usługowe</strong></li>\r\n        <li><strong>Projekt dopasowany do architektury</strong></li>\r\n        <li><strong>Realizacja od koncepcji po finalne wykonanie</strong></li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/mural.png\" alt=\"Artystyczny mural ścienny\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <!-- DREWNO / RZEŹBY -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--rzezby\" data-scroll-reveal=\"left\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        DREWNO – formy, które ożywiają przestrzeń\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Tworzymy i personalizujemy drewniane elementy użytkowe oraz dekoracyjne.\r\n        Każdy projekt podkreśla naturalną strukturę materiału i łączy rzemiosło z nowoczesną estetyką.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Deski, misy, elementy dekoracyjne</strong></li>\r\n        <li><strong>Autorskie kompozycje kolorystyczne</strong></li>\r\n        <li><strong>Ręczne wykończenie</strong> z dbałością o&nbsp;detal</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/rzezby.png\" alt=\"Artystyczne realizacje w drewnie\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <!-- ODZIEŻ -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--odziez\" data-scroll-reveal=\"right\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        ODZIEŻ – sztuka, którą możesz nosić\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Tworzymy autorskie projekty na&nbsp;odzieży codziennej i lifestyle’owej.\r\n        To propozycja dla osób, które chcą wyróżniać się subtelną, ale wyrazistą formą.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Bawełna i tkaniny naturalne</strong> – idealne pod realizacje artystyczne</li>\r\n        <li><strong>Indywidualny projekt</strong> dopasowany do stylu właściciela</li>\r\n        <li><strong>Trwałe wykończenie</strong> odporne na użytkowanie</li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/odziez.png\" alt=\"Autorska odzież artystyczna\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <!-- MOTORYZACJA -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--moto\" data-scroll-reveal=\"left\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        MOTORYZACJA – sztuka w ruchu\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Realizujemy projekty artystyczne na&nbsp;elementach pojazdów – subtelne detale lub wyraziste kompozycje.\r\n        To&nbsp;propozycja dla właścicieli, którzy chcą nadać maszynie osobisty charakter.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Elementy motocykli i samochodów</strong></li>\r\n        <li><strong>Detale podkreślające linię pojazdu</strong></li>\r\n        <li><strong>Więcej na: lussoart.pl/moto</strong></li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/moto.png\" alt=\"Artystyczne projekty motoryzacyjne\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <!-- SPRZĘT SPORTOWY -->\r\n  <div class=\"offer__item offer__item--with-image offer__item--sport\" data-scroll-reveal=\"right\">\r\n    <div class=\"offer__item-content\">\r\n      <h5 class=\"offer__item-title\">\r\n        SPRZĘT SPORTOWY&nbsp;– personalizacja z&nbsp;charakterem\r\n      </h5>\r\n      <p class=\"offer__item-description\">\r\n        Nadajemy indywidualny styl kaskom, łyżwom, wrotkom i&nbsp;innym elementom wyposażenia.\r\n        To&nbsp;propozycja dla osób, które chcą, by&nbsp;ich sprzęt był równie wyrazisty jak ich ambicje.\r\n      </p>\r\n      <ul>\r\n        <li><strong>Kaski, łyżwy, wrotki</strong></li>\r\n        <li><strong>Autorskie grafiki i&nbsp;detale</strong></li>\r\n        <li><strong>Więcej na: lussoart.pl/bike</strong></li>\r\n      </ul>\r\n    </div>\r\n\r\n    <div class=\"offer__item-image\">\r\n      <img src=\"/assets/images/art/offer/sport.png\" alt=\"Personalizowany sprzęt sportowy\" loading=\"lazy\" width=\"260\" height=\"180\" />\r\n    </div>\r\n  </div>\r\n\r\n  <div class=\"about__contact\">\r\n    <p><strong>Masz wizję, której nie&nbsp;da&nbsp;się kupić w&nbsp;sklepie?<br>\r\n      Chcesz, aby Twoja przestrzeń lub przedmiot były czymś więcej niż standardem?</strong></p>\r\n\r\n    <p>Napisz do&nbsp;nas.<br>\r\n      Stworzymy projekt, który będzie mówił Twoim językiem.</p>\r\n  </div>\r\n\r\n  <div class=\"about__cta\">\r\n    <app-cta-button\r\n            label=\"Przykładowe realizacje\"\r\n            mobileLabel=\"Przykładowe realizacje\"\r\n            routerLink=\"/art/projects\"\r\n            ariaLabel=\"Przykładowe realizacje\">\r\n    </app-cta-button>\r\n  </div>\r\n</section>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/offer/art-offer.component.html b/src/app/pages/art/offer/art-offer.component.html
+--- a/src/app/pages/art/offer/art-offer.component.html	(revision ce490034a44d5ad6a46affb0cff32a2fe6b003ad)
++++ b/src/app/pages/art/offer/art-offer.component.html	(date 1771608114039)
+@@ -12,149 +12,111 @@
+         backgroundImageMobile="/assets/images/bike/categories/layout/buty_mobile_cut.png">
+ </app-hero-section>
+ 
+-<section class="offer" #categoriesSection>
++<section class="offer" id="offer-content" #categoriesSection>
+   <h1 class="section-subtitle">
+     SZTUKA AUTORSKA. NA&nbsp;PRZEDMIOTACH I&nbsp;W&nbsp;PRZESTRZENI.
+   </h1>
+ 
+-  <!-- OBRAZY -->
+-  <div class="offer__item offer__item--with-image offer__item--obrazy">
++  <div class="offer__item">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        OBRAZY – autorskie kompozycje tworzone na&nbsp;zamówienie
+-      </h5>
+-      <p class="offer__item-description">
+-        Tworzymy obrazy dopasowane do wnętrza, osobowości i&nbsp;estetyki właściciela.
+-        Każda realizacja powstaje od koncepcji, przez szkic, po finalne wykończenie – bez szablonów i&nbsp;powtórzeń.
+-      </p>
++      <h5>OBRAZY – autorskie kompozycje tworzone na&nbsp;zamówienie</h5>
++      <p>Tworzymy obrazy dopasowane do wnętrza, osobowości i&nbsp;estetyki właściciela.
++        Każda realizacja powstaje od koncepcji, przez szkic, po finalne wykończenie – bez szablonów i&nbsp;powtórzeń.</p>
+       <ul>
+         <li><strong>Pejzaże, abstrakcja, sztuka nowoczesna</strong></li>
+         <li><strong>Format i kolorystyka</strong> dopasowane do przestrzeni</li>
+         <li><strong>Autorski projekt</strong> tworzony indywidualnie</li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/obraz.png" alt="Autorski obraz na zamówienie" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/obrazy_szkic.png" alt="Autorskie obrazy na zamówienie" loading="lazy" />
+     </div>
+   </div>
+ 
+-  <!-- MURALE -->
+-  <div class="offer__item offer__item--with-image offer__item--murale">
++  <div class="offer__item">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        MURALE – sztuka w dużym formacie
+-      </h5>
+-      <p class="offer__item-description">
+-        Projektujemy i realizujemy murale w&nbsp;przestrzeniach prywatnych oraz komercyjnych.
+-        Tworzymy kompozycje, które definiują klimat wnętrza lub budynku i budują jego unikalną tożsamość.
+-      </p>
++      <h5>MURALE – sztuka w dużym formacie</h5>
++      <p>Projektujemy i realizujemy murale w&nbsp;przestrzeniach prywatnych oraz komercyjnych.
++        Tworzymy kompozycje, które definiują klimat wnętrza lub budynku i budują jego unikalną tożsamość.</p>
+       <ul>
+         <li><strong>Wnętrza prywatne, studia, lokale usługowe</strong></li>
+         <li><strong>Projekt dopasowany do architektury</strong></li>
+         <li><strong>Realizacja od koncepcji po finalne wykonanie</strong></li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/mural.png" alt="Artystyczny mural ścienny" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/mural_szkic.png" alt="Murale artystyczne" loading="lazy" />
+     </div>
+   </div>
+ 
+-  <!-- DREWNO / RZEŹBY -->
+-  <div class="offer__item offer__item--with-image offer__item--rzezby" data-scroll-reveal="left">
++  <div class="offer__item" data-scroll-reveal="left">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        DREWNO – formy, które ożywiają przestrzeń
+-      </h5>
+-      <p class="offer__item-description">
+-        Tworzymy i personalizujemy drewniane elementy użytkowe oraz dekoracyjne.
+-        Każdy projekt podkreśla naturalną strukturę materiału i łączy rzemiosło z nowoczesną estetyką.
+-      </p>
++      <h5>DREWNO – formy, które ożywiają przestrzeń</h5>
++      <p>Tworzymy i personalizujemy drewniane elementy użytkowe oraz dekoracyjne.
++        Każdy projekt podkreśla naturalną strukturę materiału i łączy rzemiosło z nowoczesną estetyką.</p>
+       <ul>
+         <li><strong>Deski, misy, elementy dekoracyjne</strong></li>
+         <li><strong>Autorskie kompozycje kolorystyczne</strong></li>
+         <li><strong>Ręczne wykończenie</strong> z dbałością o&nbsp;detal</li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/rzezby.png" alt="Artystyczne realizacje w drewnie" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/rzezby_szkic.png" alt="Artystyczne realizacje w drewnie" loading="lazy" />
+     </div>
+   </div>
+ 
+-  <!-- ODZIEŻ -->
+-  <div class="offer__item offer__item--with-image offer__item--odziez" data-scroll-reveal="right">
++  <div class="offer__item" data-scroll-reveal="right">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        ODZIEŻ – sztuka, którą możesz nosić
+-      </h5>
+-      <p class="offer__item-description">
+-        Tworzymy autorskie projekty na&nbsp;odzieży codziennej i lifestyle’owej.
+-        To propozycja dla osób, które chcą wyróżniać się subtelną, ale wyrazistą formą.
+-      </p>
++      <h5>ODZIEŻ – sztuka, którą możesz nosić</h5>
++      <p>Tworzymy autorskie projekty na&nbsp;odzieży codziennej i lifestyle'owej.
++        To propozycja dla osób, które chcą wyróżniać się subtelną, ale wyrazistą formą.</p>
+       <ul>
+         <li><strong>Bawełna i tkaniny naturalne</strong> – idealne pod realizacje artystyczne</li>
+         <li><strong>Indywidualny projekt</strong> dopasowany do stylu właściciela</li>
+         <li><strong>Trwałe wykończenie</strong> odporne na użytkowanie</li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/odziez.png" alt="Autorska odzież artystyczna" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/odziez_szkic.png" alt="Autorska odzież artystyczna" loading="lazy" />
+     </div>
+   </div>
+ 
+-  <!-- MOTORYZACJA -->
+-  <div class="offer__item offer__item--with-image offer__item--moto" data-scroll-reveal="left">
++  <div class="offer__item" data-scroll-reveal="left">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        MOTORYZACJA – sztuka w ruchu
+-      </h5>
+-      <p class="offer__item-description">
+-        Realizujemy projekty artystyczne na&nbsp;elementach pojazdów – subtelne detale lub wyraziste kompozycje.
+-        To&nbsp;propozycja dla właścicieli, którzy chcą nadać maszynie osobisty charakter.
+-      </p>
++      <h5>MOTORYZACJA – sztuka w ruchu</h5>
++      <p>Realizujemy projekty artystyczne na&nbsp;elementach pojazdów – subtelne detale lub wyraziste kompozycje.
++        To&nbsp;propozycja dla właścicieli, którzy chcą nadać maszynie osobisty charakter.</p>
+       <ul>
+         <li><strong>Elementy motocykli i samochodów</strong></li>
+         <li><strong>Detale podkreślające linię pojazdu</strong></li>
+         <li><strong>Więcej na: lussoart.pl/moto</strong></li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/moto.png" alt="Artystyczne projekty motoryzacyjne" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/moto_szkic.png" alt="Artystyczne projekty motoryzacyjne" loading="lazy" />
+     </div>
+   </div>
+ 
+-  <!-- SPRZĘT SPORTOWY -->
+-  <div class="offer__item offer__item--with-image offer__item--sport" data-scroll-reveal="right">
++  <div class="offer__item" data-scroll-reveal="right">
+     <div class="offer__item-content">
+-      <h5 class="offer__item-title">
+-        SPRZĘT SPORTOWY&nbsp;– personalizacja z&nbsp;charakterem
+-      </h5>
+-      <p class="offer__item-description">
+-        Nadajemy indywidualny styl kaskom, łyżwom, wrotkom i&nbsp;innym elementom wyposażenia.
+-        To&nbsp;propozycja dla osób, które chcą, by&nbsp;ich sprzęt był równie wyrazisty jak ich ambicje.
+-      </p>
++      <h5>SPRZĘT SPORTOWY&nbsp;– personalizacja z&nbsp;charakterem</h5>
++      <p>Nadajemy indywidualny styl kaskom, łyżwom, wrotkom i&nbsp;innym elementom wyposażenia.
++        To&nbsp;propozycja dla osób, które chcą, by&nbsp;ich sprzęt był równie wyrazisty jak ich ambicje.</p>
+       <ul>
+         <li><strong>Kaski, łyżwy, wrotki</strong></li>
+         <li><strong>Autorskie grafiki i&nbsp;detale</strong></li>
+         <li><strong>Więcej na: lussoart.pl/bike</strong></li>
+       </ul>
+     </div>
+-
+     <div class="offer__item-image">
+-      <img src="/assets/images/art/offer/sport.png" alt="Personalizowany sprzęt sportowy" loading="lazy" width="260" height="180" />
++      <img src="/assets/images/art/offer/sport_szkic.png" alt="Personalizowany sprzęt sportowy" loading="lazy" />
+     </div>
+   </div>
+ 
+   <div class="about__contact">
+     <p><strong>Masz wizję, której nie&nbsp;da&nbsp;się kupić w&nbsp;sklepie?<br>
+       Chcesz, aby Twoja przestrzeń lub przedmiot były czymś więcej niż standardem?</strong></p>
+-
+-    <p>Napisz do&nbsp;nas.<br>
+-      Stworzymy projekt, który będzie mówił Twoim językiem.</p>
++    <p>Napisz do&nbsp;nas.<br>Stworzymy projekt, który będzie mówił Twoim językiem.</p>
+   </div>
+ 
+   <div class="about__cta">
+Index: src/app/pages/art/offer/art-offer.component.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import '../../../../styles.scss';\r\n\r\n:host {\r\n  display: block;\r\n}\r\n\r\n.offer {\r\n  margin: 0;\r\n  padding-top: $hero-to-subtitle-spacing;\r\n  padding-left: 1rem;\r\n  padding-right: 1rem;\r\n  width: 100%;\r\n  box-sizing: border-box;\r\n\r\n  @media (min-width: $breakpoint-md) {\r\n    padding-left: 2rem;\r\n    padding-right: 2rem;\r\n  }\r\n\r\n  line-height: 1.6;\r\n  font-size: $font-size-base;\r\n  color: $color-text;\r\n\r\n  .section-subtitle {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n  }\r\n\r\n  &__title {\r\n    font-size: $font-size-xl;\r\n    font-weight: $font-weight-bold;\r\n    margin-bottom: 1rem;\r\n    text-align: center;\r\n    font-family: $font-family-hero-headline;\r\n  }\r\n\r\n  &__subtitle {\r\n    font-size: $font-size-base;\r\n    font-weight: $font-weight-semibold;\r\n    margin: 1.5rem 0 0.75rem;\r\n    text-transform: uppercase;\r\n    color: $color-text-light;\r\n    text-align: center;\r\n  }\r\n\r\n  &__section-title {\r\n    font-size: $font-size-base;\r\n    font-weight: $font-weight-semibold;\r\n    margin: 1rem 0 0.5rem;\r\n  }\r\n\r\n  &__intro {\r\n    margin-bottom: 1.5rem;\r\n     font-size: $font-size-base;\r\n  }\r\n\r\n  &__item {\r\n    margin: 2rem 0;\r\n    padding: 0;\r\n    background: transparent;\r\n    border: none;\r\n    border-radius: 0;\r\n  }\r\n\r\n  &__item--with-image {\r\n    position: relative;\r\n    display: block;\r\n    margin-left: -1rem;\r\n    margin-right: -1rem;\r\n    padding: 3rem 1rem;\r\n    min-height: 300px;\r\n    overflow: hidden;\r\n\r\n    @media (max-width: $breakpoint-md) {\r\n      &[data-scroll-reveal] {\r\n        opacity: 0;\r\n        transition: opacity 1s ease-out, transform 1s ease-out;\r\n      }\r\n\r\n      &[data-scroll-reveal=\"left\"] {\r\n        transform: translateX(-50px);\r\n      }\r\n\r\n      &[data-scroll-reveal=\"right\"] {\r\n        transform: translateX(50px);\r\n      }\r\n\r\n      &[data-scroll-reveal].is-visible {\r\n        opacity: 1;\r\n        transform: translateX(0);\r\n      }\r\n\r\n      &:not([data-scroll-reveal]) {\r\n        opacity: 1;\r\n        transform: translateX(0);\r\n      }\r\n    }\r\n\r\n    &::before {\r\n      content: '';\r\n      position: absolute;\r\n      inset: 0;\r\n      background-size: cover;\r\n      background-position: center;\r\n      background-repeat: no-repeat;\r\n      z-index: 0;\r\n    }\r\n\r\n    &::after {\r\n      content: '';\r\n      position: absolute;\r\n      inset: 0;\r\n      background: rgba(255, 255, 255, 0.70);\r\n      backdrop-filter: blur(1px);\r\n      z-index: 1;\r\n    }\r\n\r\n    &.offer__item--obrazy::before {\r\n      background-image: url('/assets/images/art/offer/obrazy_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n\r\n    &.offer__item--murale::before {\r\n      background-image: url('/assets/images/art/offer/mural_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n\r\n    &.offer__item--rzezby::before {\r\n      background-image: url('/assets/images/art/offer/rzezby_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n\r\n    &.offer__item--odziez::before {\r\n      background-image: url('/assets/images/art/offer/odziez_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n\r\n    &.offer__item--moto::before {\r\n      background-image: url('/assets/images/art/offer/moto_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n\r\n    &.offer__item--sport::before {\r\n      background-image: url('/assets/images/art/offer/sport_szkic.png');\r\n      filter: grayscale(100%) sepia(20%) opacity(0.5);\r\n    }\r\n  }\r\n\r\n  &__item-content {\r\n    position: relative;\r\n    z-index: 2;\r\n    max-width: 600px;\r\n\r\n    /* Mobile: brak fiszki, czysty tekst na tle */\r\n    h5 {\r\n      font-size: $font-size-md;\r\n      font-weight: $font-weight-semibold;\r\n      margin-bottom: 0.75rem;\r\n      color: $color-text;\r\n    }\r\n\r\n    p {\r\n      margin-bottom: 1rem;\r\n      line-height: 1.6;\r\n      color: $color-text;\r\n    }\r\n\r\n    ul {\r\n      margin-top: 0.75rem;\r\n      padding-left: 1.5rem;\r\n\r\n      li {\r\n        margin-bottom: 0.5rem;\r\n        line-height: 1.5;\r\n      }\r\n    }\r\n\r\n    /* Desktop: fiszka z półprzezroczystym tłem */\r\n    @media (min-width: $breakpoint-md) {\r\n      background: rgba(255, 255, 255, 0.45);\r\n      backdrop-filter: blur(8px);\r\n      border-radius: 0.75rem;\r\n      padding: 1.75rem 1.5rem;\r\n      box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);\r\n\r\n      /* Żółty akcent tylko na desktop */\r\n      &::before {\r\n        content: '';\r\n        position: absolute;\r\n        top: 1.25rem;\r\n        left: 1.25rem;\r\n        width: 2.5rem;\r\n        height: 0.25rem;\r\n        background: $color-primary;\r\n        border-radius: 2px;\r\n        z-index: 1;\r\n      }\r\n\r\n      h5 {\r\n        margin-top: 0.5rem;\r\n      }\r\n    }\r\n  }\r\n\r\n  &__item-description {\r\n    font-size: $font-size-base; /* 18px */\r\n    margin-bottom: 1rem;\r\n    line-height: 1.6;\r\n    color: $color-text;\r\n    text-align: justify;\r\n  }\r\n\r\n  &__item-title {\r\n    font-size: $font-size-md;\r\n    font-weight: $font-weight-semibold;\r\n    margin-bottom: 0.75rem;\r\n  }\r\n\r\n  &__item-image {\r\n    position: relative;\r\n    z-index: 2;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin-top: 1.5rem;\r\n    background: transparent;\r\n  }\r\n\r\n  &__item-image img {\r\n    width: 100%;\r\n    height: auto;\r\n    max-width: 200px;\r\n    transition: transform 0.45s ease;\r\n    will-change: transform;\r\n  }\r\n\r\n  &__item--with-image:hover &__item-image img {\r\n    transform: translateY(-0.3125rem) scale(1.05);\r\n  }\r\n\r\n  &__list {\r\n    margin: 1.5rem 0;\r\n    padding-left: 1.3rem;\r\n\r\n    li {\r\n      margin-bottom: 0.5rem;\r\n    }\r\n  }\r\n\r\n  &__contact {\r\n    margin-top: 1.5rem;\r\n    font-weight: $font-weight-semibold;\r\n    font-size: $font-size-base;\r\n    text-align: center;\r\n  }\r\n}\r\n\r\n.about__contact {\r\n  margin-top: 2rem;\r\n  text-align: center;\r\n\r\n  p {\r\n    margin-bottom: 1rem;\r\n  }\r\n\r\n  strong {\r\n    font-weight: $font-weight-semibold;\r\n    font-size: $font-size-base;\r\n  }\r\n}\r\n\r\n.about__cta {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-top: 2rem;\r\n  margin-bottom: 2rem;\r\n}\r\n\r\n.categories__tile {\r\n  transition: transform 0.25s ease, box-shadow 0.25s ease;\r\n\r\n  &:hover {\r\n    transform: translateY(-0.375rem);\r\n    box-shadow: 0 0.875rem 1.875rem rgba(0, 0, 0, 0.15);\r\n  }\r\n}\r\n\r\n@media (min-width: $breakpoint-lg) {\r\n  .offer {\r\n    max-width: 56.25rem;\r\n    margin: 0 auto;\r\n    padding: $hero-to-subtitle-spacing-desktop 1rem 0 1rem;\r\n    font-size: $font-size-base;\r\n  }\r\n\r\n  .offer__title { font-size: $font-size-xl; margin-bottom: 1.5rem; }\r\n  .offer__subtitle { font-size: $font-size-lg; margin: 2.5rem 0 1rem; }\r\n  .offer__section-title { font-size: $font-size-md; margin: 2rem 0 1rem; }\r\n\r\n  .offer__item--with-image {\r\n    margin-left: calc(-50vw + 50%);\r\n    margin-right: calc(-50vw + 50%);\r\n    padding: 4rem calc(50vw - 50% + 2rem);\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: 4rem;\r\n    align-items: center;\r\n    min-height: 400px;\r\n\r\n    &::before {\r\n      background: rgba(255, 255, 255, 0.68);\r\n      backdrop-filter: blur(0.5px);\r\n    }\r\n  }\r\n\r\n  .offer__item--kaski,\r\n  .offer__item--ramy,\r\n  .offer__item--inne {\r\n    .offer__item-content {\r\n      order: 2;\r\n    }\r\n\r\n    .offer__item-image {\r\n      order: 1;\r\n    }\r\n  }\r\n\r\n  .offer__item-content {\r\n    max-width: 100%;\r\n\r\n    h5 {\r\n      font-size: $font-size-lg;\r\n      margin-bottom: 1rem;\r\n    }\r\n\r\n    p {\r\n      font-size: $font-size-base;\r\n      line-height: 1.7;\r\n    }\r\n\r\n    ul li {\r\n      font-size: $font-size-base;\r\n    }\r\n  }\r\n\r\n  .offer__item-image {\r\n    margin-top: 0;\r\n\r\n    img {\r\n      max-width: 300px;\r\n    }\r\n  }\r\n\r\n  .about__contact {\r\n    margin-top: 2.5rem;\r\n  }\r\n}\r\n\r\n/* Tablet-ish breakpoint tweaks */\r\n@media (min-width: 601px) and (max-width: 900px) {\r\n  .offer { padding: 1.5rem 1rem; }\r\n\r\n  .offer__item--with-image {\r\n    padding: 3rem 2rem;\r\n    min-height: 350px;\r\n  }\r\n\r\n  .offer__item-image img {\r\n    max-width: 250px;\r\n  }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/app/pages/art/offer/art-offer.component.scss b/src/app/pages/art/offer/art-offer.component.scss
+--- a/src/app/pages/art/offer/art-offer.component.scss	(revision ce490034a44d5ad6a46affb0cff32a2fe6b003ad)
++++ b/src/app/pages/art/offer/art-offer.component.scss	(date 1771614128960)
+@@ -11,12 +11,6 @@
+   padding-right: 1rem;
+   width: 100%;
+   box-sizing: border-box;
+-
+-  @media (min-width: $breakpoint-md) {
+-    padding-left: 2rem;
+-    padding-right: 2rem;
+-  }
+-
+   line-height: 1.6;
+   font-size: $font-size-base;
+   color: $color-text;
+@@ -26,242 +20,91 @@
+     margin-bottom: 0;
+   }
+ 
+-  &__title {
+-    font-size: $font-size-xl;
+-    font-weight: $font-weight-bold;
+-    margin-bottom: 1rem;
+-    text-align: center;
+-    font-family: $font-family-hero-headline;
+-  }
+-
+-  &__subtitle {
+-    font-size: $font-size-base;
+-    font-weight: $font-weight-semibold;
+-    margin: 1.5rem 0 0.75rem;
+-    text-transform: uppercase;
+-    color: $color-text-light;
+-    text-align: center;
+-  }
+-
+-  &__section-title {
+-    font-size: $font-size-base;
+-    font-weight: $font-weight-semibold;
+-    margin: 1rem 0 0.5rem;
+-  }
+-
+-  &__intro {
+-    margin-bottom: 1.5rem;
+-     font-size: $font-size-base;
+-  }
+-
+   &__item {
+     margin: 2rem 0;
+-    padding: 0;
+-    background: transparent;
+-    border: none;
+-    border-radius: 0;
+-  }
+ 
+-  &__item--with-image {
+-    position: relative;
+-    display: block;
+-    margin-left: -1rem;
+-    margin-right: -1rem;
+-    padding: 3rem 1rem;
+-    min-height: 300px;
+-    overflow: hidden;
+-
+-    @media (max-width: $breakpoint-md) {
+-      &[data-scroll-reveal] {
+-        opacity: 0;
+-        transition: opacity 1s ease-out, transform 1s ease-out;
+-      }
+-
+-      &[data-scroll-reveal="left"] {
+-        transform: translateX(-50px);
+-      }
+-
+-      &[data-scroll-reveal="right"] {
+-        transform: translateX(50px);
+-      }
++    // Scroll-reveal animacje
++    &[data-scroll-reveal] {
++      opacity: 0;
++      transition: opacity 1s ease-out, transform 1s ease-out;
++    }
++    &[data-scroll-reveal="left"]     { transform: translateX(-50px); }
++    &[data-scroll-reveal="right"]    { transform: translateX(50px); }
++    &[data-scroll-reveal].is-visible { opacity: 1; transform: translateX(0); }
++    &:not([data-scroll-reveal])      { opacity: 1; }
++  }
+ 
+-      &[data-scroll-reveal].is-visible {
+-        opacity: 1;
+-        transform: translateX(0);
+-      }
+-
+-      &:not([data-scroll-reveal]) {
+-        opacity: 1;
+-        transform: translateX(0);
+-      }
+-    }
+-
+-    &::before {
+-      content: '';
+-      position: absolute;
+-      inset: 0;
+-      background-size: cover;
+-      background-position: center;
+-      background-repeat: no-repeat;
+-      z-index: 0;
+-    }
+-
+-    &::after {
+-      content: '';
+-      position: absolute;
+-      inset: 0;
+-      background: rgba(255, 255, 255, 0.70);
+-      backdrop-filter: blur(1px);
+-      z-index: 1;
+-    }
+-
+-    &.offer__item--obrazy::before {
+-      background-image: url('/assets/images/art/offer/obrazy_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-
+-    &.offer__item--murale::before {
+-      background-image: url('/assets/images/art/offer/mural_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-
+-    &.offer__item--rzezby::before {
+-      background-image: url('/assets/images/art/offer/rzezby_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-
+-    &.offer__item--odziez::before {
+-      background-image: url('/assets/images/art/offer/odziez_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-
+-    &.offer__item--moto::before {
+-      background-image: url('/assets/images/art/offer/moto_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-
+-    &.offer__item--sport::before {
+-      background-image: url('/assets/images/art/offer/sport_szkic.png');
+-      filter: grayscale(100%) sepia(20%) opacity(0.5);
+-    }
+-  }
+-
++  // Fiszka z tekstem
+   &__item-content {
+     position: relative;
+-    z-index: 2;
+-    max-width: 600px;
+-
+-    /* Mobile: brak fiszki, czysty tekst na tle */
+-    h5 {
+-      font-size: $font-size-md;
+-      font-weight: $font-weight-semibold;
+-      margin-bottom: 0.75rem;
+-      color: $color-text;
+-    }
+-
+-    p {
+-      margin-bottom: 1rem;
+-      line-height: 1.6;
+-      color: $color-text;
+-    }
+-
+-    ul {
+-      margin-top: 0.75rem;
+-      padding-left: 1.5rem;
+-
+-      li {
+-        margin-bottom: 0.5rem;
+-        line-height: 1.5;
+-      }
+-    }
+-
+-    /* Desktop: fiszka z półprzezroczystym tłem */
+-    @media (min-width: $breakpoint-md) {
+-      background: rgba(255, 255, 255, 0.45);
+-      backdrop-filter: blur(8px);
+-      border-radius: 0.75rem;
+-      padding: 1.75rem 1.5rem;
+-      box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);
++    background: rgba(255, 255, 255, 0.55);
++    backdrop-filter: blur(10px);
++    border: 1px solid rgba(212, 169, 56, 0.2);
++    border-radius: 0.75rem;
++    padding: 1.75rem 1.5rem;
++    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.07);
+ 
+-      /* Żółty akcent tylko na desktop */
+-      &::before {
+-        content: '';
+-        position: absolute;
+-        top: 1.25rem;
+-        left: 1.25rem;
+-        width: 2.5rem;
+-        height: 0.25rem;
+-        background: $color-primary;
+-        border-radius: 2px;
+-        z-index: 1;
+-      }
++    // Złoty akcent nad tytułem
++    &::before {
++      content: '';
++      position: absolute;
++      top: 1.25rem;
++      left: 1.25rem;
++      width: 2.5rem;
++      height: 0.25rem;
++      background: linear-gradient(90deg, rgba(212, 169, 56, 0.9) 0%, rgba(242, 199, 102, 0.6) 100%);
++      border-radius: 2px;
++    }
+ 
+-      h5 {
+-        margin-top: 0.5rem;
+-      }
++    h5 {
++      font-size: $font-size-md;
++      font-weight: $font-weight-semibold;
++      margin-top: 0.5rem;
++      margin-bottom: 0.75rem;
++      color: $color-text;
+     }
+-  }
+ 
+-  &__item-description {
+-    font-size: $font-size-base; /* 18px */
+-    margin-bottom: 1rem;
+-    line-height: 1.6;
+-    color: $color-text;
+-    text-align: justify;
+-  }
++    p {
++      margin-bottom: 1rem;
++      line-height: 1.6;
++      color: $color-text;
++    }
+ 
+-  &__item-title {
+-    font-size: $font-size-md;
+-    font-weight: $font-weight-semibold;
+-    margin-bottom: 0.75rem;
++    ul {
++      margin-top: 0.75rem;
++      padding-left: 1.5rem;
++
++      li {
++        margin-bottom: 0.5rem;
++        line-height: 1.5;
++        color: $color-text;
++      }
++    }
+   }
+ 
++  // Mobile/tablet: obraz pod fiszką
+   &__item-image {
+-    position: relative;
+-    z-index: 2;
+-    display: flex;
+-    justify-content: center;
+-    align-items: center;
+-    margin-top: 1.5rem;
+-    background: transparent;
+-  }
++    margin-top: 1rem;
++    width: 100%;
++    height: 240px;
++    overflow: hidden;
++    border-radius: 0.5rem;
+ 
+-  &__item-image img {
+-    width: 100%;
+-    height: auto;
+-    max-width: 200px;
+-    transition: transform 0.45s ease;
+-    will-change: transform;
+-  }
+-
+-  &__item--with-image:hover &__item-image img {
+-    transform: translateY(-0.3125rem) scale(1.05);
+-  }
+-
+-  &__list {
+-    margin: 1.5rem 0;
+-    padding-left: 1.3rem;
+-
+-    li {
+-      margin-bottom: 0.5rem;
++    img {
++      width: 100%;
++      height: 100%;
++      object-fit: cover;
++      object-position: center;
++      display: block;
+     }
+   }
+-
+-  &__contact {
+-    margin-top: 1.5rem;
+-    font-weight: $font-weight-semibold;
+-    font-size: $font-size-base;
+-    text-align: center;
+-  }
+ }
+ 
+ .about__contact {
+   margin-top: 2rem;
+   text-align: center;
+ 
+-  p {
+-    margin-bottom: 1rem;
+-  }
++  p { margin-bottom: 1rem; }
+ 
+   strong {
+     font-weight: $font-weight-semibold;
+@@ -276,97 +119,48 @@
+   margin-bottom: 2rem;
+ }
+ 
+-.categories__tile {
+-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+-
+-  &:hover {
+-    transform: translateY(-0.375rem);
+-    box-shadow: 0 0.875rem 1.875rem rgba(0, 0, 0, 0.15);
+-  }
+-}
+-
++// ─── Desktop ────────────────────────────────────────────────────────────────
+ @media (min-width: $breakpoint-lg) {
+   .offer {
+-    max-width: 56.25rem;
++    max-width: 85rem;
+     margin: 0 auto;
+     padding: $hero-to-subtitle-spacing-desktop 1rem 0 1rem;
+-    font-size: $font-size-base;
+   }
+ 
+-  .offer__title { font-size: $font-size-xl; margin-bottom: 1.5rem; }
+-  .offer__subtitle { font-size: $font-size-lg; margin: 2.5rem 0 1rem; }
+-  .offer__section-title { font-size: $font-size-md; margin: 2rem 0 1rem; }
+-
+-  .offer__item--with-image {
+-    margin-left: calc(-50vw + 50%);
+-    margin-right: calc(-50vw + 50%);
+-    padding: 4rem calc(50vw - 50% + 2rem);
++  // Desktop: fiszka i obraz obok siebie
++  .offer__item {
+     display: grid;
+-    grid-template-columns: 1fr 1fr;
+-    gap: 4rem;
++    grid-template-columns: 1fr 706px;
++    gap: 2rem;
+     align-items: center;
+-    min-height: 400px;
+-
+-    &::before {
+-      background: rgba(255, 255, 255, 0.68);
+-      backdrop-filter: blur(0.5px);
+-    }
++    margin: 2rem 0;
+   }
+ 
+-  .offer__item--kaski,
+-  .offer__item--ramy,
+-  .offer__item--inne {
+-    .offer__item-content {
+-      order: 2;
+-    }
++  .offer__item-content {
++    h5 { font-size: $font-size-lg; }
++    p  { font-size: $font-size-base; line-height: 1.7; }
++    ul li { font-size: $font-size-base; }
++  }
+ 
+-    .offer__item-image {
+-      order: 1;
+-    }
+-  }
+-
+-  .offer__item-content {
+-    max-width: 100%;
+-
+-    h5 {
+-      font-size: $font-size-lg;
+-      margin-bottom: 1rem;
+-    }
+-
+-    p {
+-      font-size: $font-size-base;
+-      line-height: 1.7;
+-    }
+-
+-    ul li {
+-      font-size: $font-size-base;
+-    }
+-  }
+-
++  // Desktop: obraz stały rozmiar 706×433px
+   .offer__item-image {
+     margin-top: 0;
++    width: 706px;
++    height: 433px;
+ 
+     img {
+-      max-width: 300px;
++      object-fit: cover;
+     }
+   }
+ 
+-  .about__contact {
+-    margin-top: 2.5rem;
+-  }
++  .about__contact { margin-top: 2.5rem; }
+ }
+ 
+-/* Tablet-ish breakpoint tweaks */
+-@media (min-width: 601px) and (max-width: 900px) {
++// ─── Tablet ──────────────────────────────────────────────────────────────────
++@media (min-width: 601px) and (max-width: #{$breakpoint-lg - 1}) {
+   .offer { padding: 1.5rem 1rem; }
+ 
+-  .offer__item--with-image {
+-    padding: 3rem 2rem;
+-    min-height: 350px;
++  .offer__item-image {
++    height: 320px;
+   }
+-
+-  .offer__item-image img {
+-    max-width: 250px;
+-  }
+ }
+-
